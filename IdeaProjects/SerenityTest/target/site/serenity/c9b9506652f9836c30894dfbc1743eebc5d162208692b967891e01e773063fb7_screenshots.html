@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Cowin project </span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="867c5b7bf4f95db054cdff5410f331cfcfb51871f4e38300eeea2a452954895f.html">Checking Data On Cowin Dashboard For State And District</a></span>
+                > <span class="truncate-60"><a
+                    href="c9b9506652f9836c30894dfbc1743eebc5d162208692b967891e01e773063fb7.html">Validate vaccine data on dashboard for specific state and district </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-07-2021 23:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Checking Data On Cowin Dashboard For State And District </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to check data for specific state and district on cowin dashboard
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validate vaccine data on dashboard for specific state and district
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c1096d09a1b90760b15a4743c9ac8c803a940cc20108d6019031396bcd81f2a6.png" title=" Given user navigate to cowin website" width="2880"/>
+                <img src="c1096d09a1b90760b15a4743c9ac8c803a940cc20108d6019031396bcd81f2a6.png" title=" Navigate home page" width="2880"/>
+                <img src="c1096d09a1b90760b15a4743c9ac8c803a940cc20108d6019031396bcd81f2a6.png" title=" Given user navigate to cowin website (completed)" width="2880"/>
+                <img src="1fd92d8a2c110a7cf56f429e8198352a360c8454ce69c85556245f062deed3dc.png" title=" When user clicks on cowin dashboard link" width="2880"/>
+                <img src="1fd92d8a2c110a7cf56f429e8198352a360c8454ce69c85556245f062deed3dc.png" title=" Select dashboard" width="2880"/>
+                <img src="1fd92d8a2c110a7cf56f429e8198352a360c8454ce69c85556245f062deed3dc.png" title=" When user clicks on cowin dashboard link (completed)" width="2880"/>
+                <img src="1fd92d8a2c110a7cf56f429e8198352a360c8454ce69c85556245f062deed3dc.png" title=" And user switches to dashboard tab" width="2880"/>
+                <img src="1fd92d8a2c110a7cf56f429e8198352a360c8454ce69c85556245f062deed3dc.png" title=" Switch tab" width="2880"/>
+                <img src="1fd92d8a2c110a7cf56f429e8198352a360c8454ce69c85556245f062deed3dc.png" title=" And user switches to dashboard tab (completed)" width="2880"/>
+                <img src="01f0f1731b667091b937ee0499eacc34c67b9a69fb261ff6798c0fc770f5c216.png" title=" And user selects state &quot;Uttar Pradesh&quot; from state dropdown" width="2880"/>
+                <img src="01f0f1731b667091b937ee0499eacc34c67b9a69fb261ff6798c0fc770f5c216.png" title=" Select state val: Uttar Pradesh" width="2880"/>
+                <img src="f1df42b61530d77ec0056b65137c03626ca96495b3ed18d28b054be969764d98.png" title=" Select state val: Uttar Pradesh (completed)" width="2880"/>
+                <img src="f1df42b61530d77ec0056b65137c03626ca96495b3ed18d28b054be969764d98.png" title=" And user selects state &quot;Uttar Pradesh&quot; from state dropdown (completed)" width="2880"/>
+                <img src="d9cdc4e280069be9a4adb70c5334071aecf08682fedc89fadca06b7b2b9bffca.png" title=" And user selects district &quot;Lucknow&quot; from district dropdown" width="2880"/>
+                <img src="d9cdc4e280069be9a4adb70c5334071aecf08682fedc89fadca06b7b2b9bffca.png" title=" Select district val: Lucknow" width="2880"/>
+                <img src="d9cdc4e280069be9a4adb70c5334071aecf08682fedc89fadca06b7b2b9bffca.png" title=" And user selects district &quot;Lucknow&quot; from district dropdown (completed)" width="2880"/>
+                <img src="d9cdc4e280069be9a4adb70c5334071aecf08682fedc89fadca06b7b2b9bffca.png" title=" Then user validates todays count of vaccination should be &quot;20,233&quot;" width="2880"/>
+                <img src="d9cdc4e280069be9a4adb70c5334071aecf08682fedc89fadca06b7b2b9bffca.png" title=" Get vaccine count: 20,233: <span class='success-color'>SUCCESS</span>" width="2880"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

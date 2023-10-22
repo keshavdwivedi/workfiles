@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38519" started-at="2020-07-09T18:48:45Z" finished-at="2020-07-09T18:49:24Z">
+    <groups>
+    </groups>
+    <test name="HomepageTest" duration-ms="15320" started-at="2020-07-09T18:48:45Z" finished-at="2020-07-09T18:49:00Z">
+      <class name="com.Singleton.hompageTest.VerifyHomepage">
+        <test-method status="PASS" signature="reportsetup()[pri:0, instance:com.Singleton.hompageTest.VerifyHomepage@52f759d7]" name="reportsetup" is-config="true" duration-ms="187" started-at="2020-07-09T18:48:45Z" finished-at="2020-07-09T18:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsetup -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Singleton.hompageTest.VerifyHomepage@52f759d7]" name="Setup" is-config="true" duration-ms="14670" started-at="2020-07-09T18:48:45Z" finished-at="2020-07-09T18:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="checkHomepage()[pri:0, instance:com.Singleton.hompageTest.VerifyHomepage@52f759d7]" name="checkHomepage" duration-ms="88" started-at="2020-07-09T18:49:00Z" finished-at="2020-07-09T18:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomepage -->
+        <test-method status="PASS" signature="destroytest()[pri:0, instance:com.Singleton.hompageTest.VerifyHomepage@52f759d7]" name="destroytest" is-config="true" duration-ms="81" started-at="2020-07-09T18:49:00Z" finished-at="2020-07-09T18:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroytest -->
+        <test-method status="PASS" signature="Endreport()[pri:0, instance:com.Singleton.hompageTest.VerifyHomepage@52f759d7]" name="Endreport" is-config="true" duration-ms="269" started-at="2020-07-09T18:49:00Z" finished-at="2020-07-09T18:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Endreport -->
+      </class> <!-- com.Singleton.hompageTest.VerifyHomepage -->
+    </test> <!-- HomepageTest -->
+    <test name="SignupTest1" duration-ms="23182" started-at="2020-07-09T18:49:00Z" finished-at="2020-07-09T18:49:24Z">
+      <class name="com.Singleton.signuptest.VerifysignupOne">
+        <test-method status="PASS" signature="reportsetup()[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="reportsetup" is-config="true" duration-ms="5" started-at="2020-07-09T18:49:00Z" finished-at="2020-07-09T18:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsetup -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="Setup" is-config="true" duration-ms="12073" started-at="2020-07-09T18:49:00Z" finished-at="2020-07-09T18:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="checksignupByBlanksubmit()[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="checksignupByBlanksubmit" duration-ms="2288" started-at="2020-07-09T18:49:12Z" finished-at="2020-07-09T18:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksignupByBlanksubmit -->
+        <test-method status="PASS" signature="checksignupByInvalidEmail(java.lang.String)[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="checksignupByInvalidEmail" duration-ms="1870" started-at="2020-07-09T18:49:15Z" data-provider="SignupData" finished-at="2020-07-09T18:49:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksignupByInvalidEmail -->
+        <test-method status="PASS" signature="checksignupByInvalidEmail(java.lang.String)[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="checksignupByInvalidEmail" duration-ms="2223" started-at="2020-07-09T18:49:17Z" data-provider="SignupData" finished-at="2020-07-09T18:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[efg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksignupByInvalidEmail -->
+        <test-method status="PASS" signature="checksignupByInvalidEmail(java.lang.String)[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="checksignupByInvalidEmail" duration-ms="1912" started-at="2020-07-09T18:49:19Z" data-provider="SignupData" finished-at="2020-07-09T18:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksignupByInvalidEmail -->
+        <test-method status="PASS" signature="checksignupByValidEmail(java.lang.String)[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="checksignupByValidEmail" duration-ms="1999" started-at="2020-07-09T18:49:21Z" data-provider="ValidSignupData" finished-at="2020-07-09T18:49:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[typ@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksignupByValidEmail -->
+        <test-method status="PASS" signature="destroytest()[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="destroytest" is-config="true" duration-ms="137" started-at="2020-07-09T18:49:23Z" finished-at="2020-07-09T18:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroytest -->
+        <test-method status="PASS" signature="Endreport()[pri:0, instance:com.Singleton.signuptest.VerifysignupOne@64485a47]" name="Endreport" is-config="true" duration-ms="75" started-at="2020-07-09T18:49:23Z" finished-at="2020-07-09T18:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Endreport -->
+      </class> <!-- com.Singleton.signuptest.VerifysignupOne -->
+    </test> <!-- SignupTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>

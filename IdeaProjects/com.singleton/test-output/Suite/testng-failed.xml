@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.base.Testspecification"/>
+  </listeners>
+  <test thread-count="5" name="SignupTest1(failed)">
+    <classes>
+      <class name="com.Singleton.signuptest.VerifysignupOne">
+        <methods>
+          <include name="checksignupByInvalidEmail" invocation-numbers="2"/>
+          <include name="Setup"/>
+          <include name="reportsetup"/>
+          <include name="destroytest"/>
+          <include name="Endreport"/>
+        </methods>
+      </class> <!-- com.Singleton.signuptest.VerifysignupOne -->
+    </classes>
+  </test> <!-- SignupTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

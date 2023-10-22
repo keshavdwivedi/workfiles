@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="88" passed="74" failed="6" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-08T15:15:20 IST" name="All Test Suite" finished-at="2023-05-08T15:15:56 IST" duration-ms="35537">
+    <groups>
+    </groups>
+    <test started-at="2023-05-08T15:15:20 IST" name="HP One API Test" finished-at="2023-05-08T15:15:56 IST" duration-ms="35537">
+      <class name="GetRequests.GetPortalPage">
+        <test-method is-config="true" signature="getPortalPageRequest()[pri:0, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:45 IST" name="getPortalPageRequest" finished-at="2023-05-08T15:15:48 IST" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPortalPageRequest -->
+        <test-method signature="getCustomerParamsRequest()[pri:1, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCustomerParamsRequest" finished-at="2023-05-08T15:15:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerParamsRequest -->
+        <test-method signature="getCustomerRequest_checkResponseTime()[pri:2, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCustomerRequest_checkResponseTime" finished-at="2023-05-08T15:15:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkResponseTime -->
+        <test-method signature="getCustomerRequest_checkStatusCode()[pri:3, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCustomerRequest_checkStatusCode" finished-at="2023-05-08T15:15:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkStatusCode -->
+        <test-method signature="getCustomerRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCustomerRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkResponseStatusLine -->
+        <test-method signature="getCheckedSetting_checkHeaderContents()[pri:5, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCheckedSetting_checkHeaderContents" finished-at="2023-05-08T15:15:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkHeaderContents -->
+        <test-method signature="getCheckedSetting_checkContentType()[pri:6, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCheckedSetting_checkContentType" finished-at="2023-05-08T15:15:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkContentType -->
+        <test-method signature="getCheckedSetting_checkResponseTitleText()[pri:7, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCheckedSetting_checkResponseTitleText" finished-at="2023-05-08T15:15:48 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkResponseTitleText -->
+        <test-method signature="getCalendarEventRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetPortalPage@428640fa]" started-at="2023-05-08T15:15:48 IST" name="getCalendarEventRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetPortalPage -->
+      <class name="GetRequests.GetCheckSettings">
+        <test-method is-config="true" signature="callGetCheckedSettingRequest()[pri:0, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:32 IST" name="callGetCheckedSettingRequest" finished-at="2023-05-08T15:15:35 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetCheckedSettingRequest -->
+        <test-method signature="getCheckedSettingsRequest()[pri:1, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSettingsRequest" finished-at="2023-05-08T15:15:35 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSettingsRequest -->
+        <test-method signature="getCheckedSetting_checkResponseTime()[pri:2, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkResponseTime" finished-at="2023-05-08T15:15:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkResponseTime -->
+        <test-method signature="getCheckedSetting_checkStatusCode()[pri:3, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkStatusCode" finished-at="2023-05-08T15:15:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkStatusCode -->
+        <test-method signature="getCheckedSetting_checkResponseStatusLine()[pri:4, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkResponseStatusLine" finished-at="2023-05-08T15:15:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkResponseStatusLine -->
+        <test-method signature="getCheckedSetting_checkHeaderContents()[pri:5, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkHeaderContents" finished-at="2023-05-08T15:15:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkHeaderContents -->
+        <test-method signature="getCheckedSetting_checkContentType()[pri:6, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkContentType" finished-at="2023-05-08T15:15:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkContentType -->
+        <test-method signature="getCheckedSetting_checkResponseTitleText()[pri:7, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkResponseTitleText" finished-at="2023-05-08T15:15:35 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkResponseTitleText -->
+        <test-method signature="getCheckedSetting_checkMainResponseHeading()[pri:8, instance:GetRequests.GetCheckSettings@1151e434]" started-at="2023-05-08T15:15:35 IST" name="getCheckedSetting_checkMainResponseHeading" finished-at="2023-05-08T15:15:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetCheckSettings -->
+      <class name="GetRequests.GetCalendarEventPage">
+        <test-method is-config="true" signature="getCalendarEventRequest()[pri:0, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:28 IST" name="getCalendarEventRequest" finished-at="2023-05-08T15:15:31 IST" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest -->
+        <test-method signature="getCalendarEventRequest_checkResponse()[pri:1, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkResponse" finished-at="2023-05-08T15:15:31 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkResponse -->
+        <test-method signature="getCalendarEventRequest_checkResponseTime()[pri:2, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkResponseTime" finished-at="2023-05-08T15:15:31 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkResponseTime -->
+        <test-method signature="getCalendarEventRequest_checkStatusCode()[pri:3, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkStatusCode" finished-at="2023-05-08T15:15:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkStatusCode -->
+        <test-method signature="getCalendarEventRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkResponseStatusLine -->
+        <test-method signature="getCalendarEventRequest_checkHeaderContents()[pri:5, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkHeaderContents" finished-at="2023-05-08T15:15:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkHeaderContents -->
+        <test-method signature="getCalendarEventRequest_checkContentType()[pri:6, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkContentType" finished-at="2023-05-08T15:15:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkContentType -->
+        <test-method signature="getCalendarEventRequest_checkResponseTitleText()[pri:7, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:31 IST" name="getCalendarEventRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:32 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkResponseTitleText -->
+        <test-method signature="getCalendarEventRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetCalendarEventPage@1b11171f]" started-at="2023-05-08T15:15:32 IST" name="getCalendarEventRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetCalendarEventPage -->
+      <class name="GetRequests.GetCustomerNotesPage">
+        <test-method is-config="true" signature="callGetCustomerNotesRequest()[pri:0, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:35 IST" name="callGetCustomerNotesRequest" finished-at="2023-05-08T15:15:37 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetCustomerNotesRequest -->
+        <test-method signature="getGetCustomerNotesRequest_checkResponse()[pri:1, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkResponse" finished-at="2023-05-08T15:15:37 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkResponse -->
+        <test-method signature="getGetCustomerNotesRequest_checkResponseTime()[pri:2, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkResponseTime" finished-at="2023-05-08T15:15:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkResponseTime -->
+        <test-method signature="getGetCustomerNotesRequest_checkStatusCode()[pri:3, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkStatusCode" finished-at="2023-05-08T15:15:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkStatusCode -->
+        <test-method signature="getGetCustomerNotesRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkResponseStatusLine -->
+        <test-method signature="getGetCustomerNotesRequest_checkHeaderContents()[pri:5, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkHeaderContents" finished-at="2023-05-08T15:15:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkHeaderContents -->
+        <test-method signature="getGetCustomerNotesRequest_checkContentType()[pri:6, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkContentType" finished-at="2023-05-08T15:15:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkContentType -->
+        <test-method signature="getGetCustomerNotesRequest_checkResponseTitleText()[pri:7, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:37 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkResponseTitleText -->
+        <test-method signature="getGetCustomerNotesRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetCustomerNotesPage@2dc54ad4]" started-at="2023-05-08T15:15:37 IST" name="getGetCustomerNotesRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGetCustomerNotesRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetCustomerNotesPage -->
+      <class name="GetRequests.GetLogoutPage">
+        <test-method is-config="true" signature="callGetLogoutRequest()[pri:0, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:41 IST" name="callGetLogoutRequest" finished-at="2023-05-08T15:15:42 IST" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetLogoutRequest -->
+        <test-method signature="getDistributorPageRequest_checkResponse()[pri:1, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkResponse" finished-at="2023-05-08T15:15:42 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponse -->
+        <test-method signature="getDistributorPageRequest_checkResponseTime()[pri:2, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkResponseTime" finished-at="2023-05-08T15:15:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponseTime -->
+        <test-method signature="getDistributorPageRequest_checkStatusCode()[pri:3, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkStatusCode" finished-at="2023-05-08T15:15:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkStatusCode -->
+        <test-method signature="getDistributorPageRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponseStatusLine -->
+        <test-method signature="getDistributorPageRequest_checkHeaderContents()[pri:5, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkHeaderContents" finished-at="2023-05-08T15:15:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkHeaderContents -->
+        <test-method signature="getDistributorPageRequest_checkContentType()[pri:6, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkContentType" finished-at="2023-05-08T15:15:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkContentType -->
+        <test-method signature="getDistributorPageRequest_checkResponseTitleText()[pri:7, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:42 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponseTitleText -->
+        <test-method signature="getDistributorPageRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetLogoutPage@4b0d79fc]" started-at="2023-05-08T15:15:42 IST" name="getDistributorPageRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetLogoutPage -->
+      <class name="GetRequests.GetAuthorizeClientID">
+        <test-method is-config="true" signature="getClientIdRequest()[pri:0, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:21 IST" name="getClientIdRequest" finished-at="2023-05-08T15:15:28 IST" duration-ms="7604" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest -->
+        <test-method signature="getClientIdRequest_checkResponse()[pri:1, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkResponse" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponse -->
+        <test-method signature="getClientIdRequest_checkResponseTime()[pri:2, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkResponseTime" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponseTime -->
+        <test-method signature="getClientIdRequest_checkStatusCode()[pri:3, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkStatusCode" finished-at="2023-05-08T15:15:28 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkStatusCode -->
+        <test-method signature="getClientIdRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponseStatusLine -->
+        <test-method signature="getClientIdRequest_checkHeaderContents()[pri:5, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkHeaderContents" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkHeaderContents -->
+        <test-method signature="getClientIdRequest_checkContentType()[pri:6, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkContentType" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkContentType -->
+        <test-method signature="getClientIdRequest_checkResponseTitleText()[pri:7, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponseTitleText -->
+        <test-method signature="getClientIdRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetAuthorizeClientID@47e2e487]" started-at="2023-05-08T15:15:28 IST" name="getClientIdRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetAuthorizeClientID -->
+      <class name="GetRequests.GetMySalesPolicyDataPage">
+        <test-method is-config="true" signature="getSalesPolicyRequest()[pri:0, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:42 IST" name="getSalesPolicyRequest" finished-at="2023-05-08T15:15:45 IST" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSalesPolicyRequest -->
+        <test-method signature="getCustomerParamsRequest()[pri:1, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCustomerParamsRequest" finished-at="2023-05-08T15:15:45 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerParamsRequest -->
+        <test-method signature="getCustomerRequest_checkResponseTime()[pri:2, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCustomerRequest_checkResponseTime" finished-at="2023-05-08T15:15:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkResponseTime -->
+        <test-method signature="getCustomerRequest_checkStatusCode()[pri:3, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCustomerRequest_checkStatusCode" finished-at="2023-05-08T15:15:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkStatusCode -->
+        <test-method signature="getCustomerRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCustomerRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkResponseStatusLine -->
+        <test-method signature="getCheckedSetting_checkHeaderContents()[pri:5, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCheckedSetting_checkHeaderContents" finished-at="2023-05-08T15:15:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkHeaderContents -->
+        <test-method signature="getCheckedSetting_checkContentType()[pri:6, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCheckedSetting_checkContentType" finished-at="2023-05-08T15:15:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkContentType -->
+        <test-method signature="getCheckedSetting_checkResponseTitleText()[pri:7, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCheckedSetting_checkResponseTitleText" finished-at="2023-05-08T15:15:45 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkResponseTitleText -->
+        <test-method signature="getCalendarEventRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetMySalesPolicyDataPage@4c1909a3]" started-at="2023-05-08T15:15:45 IST" name="getCalendarEventRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetMySalesPolicyDataPage -->
+      <class name="GetRequests.getCalendarEventsNotesPage">
+        <test-method is-config="true" signature="getCalendarEventsNotesRequest()[pri:0, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:53 IST" name="getCalendarEventsNotesRequest" finished-at="2023-05-08T15:15:56 IST" duration-ms="2737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventsNotesRequest -->
+        <test-method signature="getCalendarEventNotesRequest_checkResponse()[pri:1, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkResponse" finished-at="2023-05-08T15:15:56 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkResponse -->
+        <test-method signature="getCalendarEventNotesRequest_checkResponseTime()[pri:2, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkResponseTime" finished-at="2023-05-08T15:15:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkResponseTime -->
+        <test-method signature="getCalendarEventNotesRequest_checkStatusCode()[pri:3, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkStatusCode" finished-at="2023-05-08T15:15:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkStatusCode -->
+        <test-method signature="getCalendarEventNotesRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkResponseStatusLine -->
+        <test-method signature="getCalendarEventNotesRequest_checkHeaderContents()[pri:5, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkHeaderContents" finished-at="2023-05-08T15:15:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkHeaderContents -->
+        <test-method signature="getCalendarEventNotesRequest_checkContentType()[pri:6, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkContentType" finished-at="2023-05-08T15:15:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkContentType -->
+        <test-method signature="getCalendarEventNotesRequest_checkResponseTitleText()[pri:7, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:56 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkResponseTitleText -->
+        <test-method signature="getCalendarEventNotesRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.getCalendarEventsNotesPage@2d710f1a]" started-at="2023-05-08T15:15:56 IST" name="getCalendarEventNotesRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventNotesRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.getCalendarEventsNotesPage -->
+      <class name="GetRequests.GetDistributorStatusPage">
+        <test-method is-config="true" signature="getDistributorPageRequest()[pri:0, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:38 IST" name="getDistributorPageRequest" finished-at="2023-05-08T15:15:41 IST" duration-ms="2543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest -->
+        <test-method signature="getDistributorPageRequest_checkResponse()[pri:1, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkResponse" finished-at="2023-05-08T15:15:41 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponse -->
+        <test-method signature="getDistributorPageRequest_checkResponseTime()[pri:2, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkResponseTime" finished-at="2023-05-08T15:15:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponseTime -->
+        <test-method signature="getDistributorPageRequest_checkStatusCode()[pri:3, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkStatusCode" finished-at="2023-05-08T15:15:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkStatusCode -->
+        <test-method signature="getDistributorPageRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponseStatusLine -->
+        <test-method signature="getDistributorPageRequest_checkHeaderContents()[pri:5, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkHeaderContents" finished-at="2023-05-08T15:15:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkHeaderContents -->
+        <test-method signature="getDistributorPageRequest_checkContentType()[pri:6, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkContentType" finished-at="2023-05-08T15:15:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkContentType -->
+        <test-method signature="getDistributorPageRequest_checkResponseTitleText()[pri:7, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:41 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkResponseTitleText -->
+        <test-method signature="getDistributorPageRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetDistributorStatusPage@55634720]" started-at="2023-05-08T15:15:41 IST" name="getDistributorPageRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDistributorPageRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetDistributorStatusPage -->
+      <class name="GetRequests.GetStartupPage">
+        <test-method is-config="true" signature="getStartupRequest()[pri:0, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:48 IST" name="getStartupRequest" finished-at="2023-05-08T15:15:53 IST" duration-ms="4788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartupRequest -->
+        <test-method signature="getClientIdRequest_checkResponse()[pri:1, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkResponse" finished-at="2023-05-08T15:15:53 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponse -->
+        <test-method signature="getClientIdRequest_checkResponseTime()[pri:2, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkResponseTime" finished-at="2023-05-08T15:15:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponseTime -->
+        <test-method signature="getClientIdRequest_checkStatusCode()[pri:3, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkStatusCode" finished-at="2023-05-08T15:15:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkStatusCode -->
+        <test-method signature="getClientIdRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponseStatusLine -->
+        <test-method signature="getClientIdRequest_checkHeaderContents()[pri:5, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkHeaderContents" finished-at="2023-05-08T15:15:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkHeaderContents -->
+        <test-method signature="getClientIdRequest_checkContentType()[pri:6, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkContentType" finished-at="2023-05-08T15:15:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkContentType -->
+        <test-method signature="getClientIdRequest_checkResponseTitleText()[pri:7, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkResponseTitleText" finished-at="2023-05-08T15:15:53 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkResponseTitleText -->
+        <test-method signature="getClientIdRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetStartupPage@d9345cd]" started-at="2023-05-08T15:15:53 IST" name="getClientIdRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClientIdRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetStartupPage -->
+      <class name="GetRequests.GetCustomerRecordPage">
+        <test-method is-config="true" signature="callGetCustomerRequest()[pri:0, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:37 IST" name="callGetCustomerRequest" finished-at="2023-05-08T15:15:38 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetCustomerRequest -->
+        <test-method signature="getCustomerParamsRequest()[pri:1, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCustomerParamsRequest" finished-at="2023-05-08T15:15:38 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerParamsRequest -->
+        <test-method signature="getCustomerRequest_checkResponseTime()[pri:2, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCustomerRequest_checkResponseTime" finished-at="2023-05-08T15:15:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkResponseTime -->
+        <test-method signature="getCustomerRequest_checkStatusCode()[pri:3, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCustomerRequest_checkStatusCode" finished-at="2023-05-08T15:15:38 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at GetRequests.GetCustomerRecordPage.getCustomerRequest_checkStatusCode(GetCustomerRecordPage.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkStatusCode -->
+        <test-method signature="getCustomerRequest_checkResponseStatusLine()[pri:4, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCustomerRequest_checkResponseStatusLine" finished-at="2023-05-08T15:15:38 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at GetRequests.GetCustomerRecordPage.getCustomerRequest_checkResponseStatusLine(GetCustomerRecordPage.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCustomerRequest_checkResponseStatusLine -->
+        <test-method signature="getCheckedSetting_checkHeaderContents()[pri:5, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCheckedSetting_checkHeaderContents" finished-at="2023-05-08T15:15:38 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [gzip] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [gzip] but found [null]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkHeaderContents(GetCustomerRecordPage.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkHeaderContents -->
+        <test-method signature="getCheckedSetting_checkContentType()[pri:6, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCheckedSetting_checkContentType" finished-at="2023-05-08T15:15:38 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkContentType(GetCustomerRecordPage.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkContentType -->
+        <test-method signature="getCheckedSetting_checkResponseTitleText()[pri:7, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCheckedSetting_checkResponseTitleText" finished-at="2023-05-08T15:15:38 IST" duration-ms="24" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Authentication Account Login] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Authentication Account Login] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkResponseTitleText(GetCustomerRecordPage.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedSetting_checkResponseTitleText -->
+        <test-method signature="getCalendarEventRequest_checkMainResponseHeading()[pri:8, instance:GetRequests.GetCustomerRecordPage@4659191b]" started-at="2023-05-08T15:15:38 IST" name="getCalendarEventRequest_checkMainResponseHeading" finished-at="2023-05-08T15:15:38 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at GetRequests.GetCustomerRecordPage.getCalendarEventRequest_checkMainResponseHeading(GetCustomerRecordPage.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+      </class> <!-- GetRequests.GetCustomerRecordPage -->
+    </test> <!-- HP One API Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

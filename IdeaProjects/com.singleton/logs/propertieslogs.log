@@ -1,0 +1,8 @@
+[INFO ] 2020-08-13 11:24:15.086 [main] Homepage - Asserted logo on homepage
+[INFO ] 2020-08-13 11:24:15.090 [main] Homepage - Asserted URL on homepage
+[INFO ] 2020-08-13 11:24:26.245 [main] Homepage - Signup page title has been verified
+[INFO ] 2020-08-13 11:24:26.907 [main] Homepage - Signup functionality by entering invalid email has been verified
+[INFO ] 2020-08-13 11:24:26.974 [main] Homepage - Signup functionality by entering invalid email has been verified
+[INFO ] 2020-08-13 11:24:27.039 [main] Homepage - Signup functionality by entering invalid email has been verified
+[INFO ] 2020-08-13 11:24:27.126 [main] Homepage - Signup functionality by entering valid email has been verified
+[INFO ] 2020-08-13 11:24:36.404 [main] SignupPageOne - Signup form page heading has been verified

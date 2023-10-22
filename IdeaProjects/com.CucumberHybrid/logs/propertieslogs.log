@@ -1,0 +1,7 @@
+[INFO ] 2020-10-01 00:07:43.934 [main] BaseSetup - New Webdriver instance invoked
+[INFO ] 2020-10-01 00:07:45.386 [main] BaseSetup - Chrome browser instance launched successfully
+[DEBUG] 2020-10-01 00:07:54.754 [main] HomePage_PF - Banner on homepage of website has been validated.
+[DEBUG] 2020-10-01 00:07:54.789 [main] HomePage_PF - Search field on homepage has been validated.
+[DEBUG] 2020-10-01 00:07:57.717 [main] HomePage_PF - Search icon has been clicked.
+[DEBUG] 2020-10-01 00:07:57.769 [main] ProductList_PF - The validation message validated is Please enter a search keyword
+[INFO ] 2020-10-01 00:07:58.863 [main] ProductList_PF - Webdriver instance has been closed

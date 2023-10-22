@@ -1,0 +1,10 @@
+[INFO ] 2020-10-01 01:05:43.492 [main] WebdriverSetup - New Chrome instance invoked
+[INFO ] 2020-10-01 01:05:48.853 [main] WebdriverSetup - Website has been loaded
+[INFO ] 2020-10-01 01:05:50.346 [main] Homepage_PO - The homepage logo has been validated
+[INFO ] 2020-10-01 01:05:50.389 [main] Homepage_PO - Home page headingGuru99 telecomhas been validated
+[INFO ] 2020-10-01 01:05:50.404 [main] Homepage_PO - The count of elements found is 4
+[INFO ] 2020-10-01 01:05:50.450 [main] Homepage_PO - Element found and validated in list is Add Customer
+[INFO ] 2020-10-01 01:05:50.463 [main] Homepage_PO - Element found and validated in list is Add Tariff Plan to Customer
+[INFO ] 2020-10-01 01:05:50.483 [main] Homepage_PO - Element found and validated in list is Add Tariff Plan
+[INFO ] 2020-10-01 01:05:50.504 [main] Homepage_PO - Element found and validated in list is Pay Billing
+[INFO ] 2020-10-01 01:05:51.830 [main] Homepage_PO - Webdriver session terminated

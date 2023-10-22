@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59194" started-at="2018-04-15T05:45:20Z" finished-at="2018-04-15T05:46:19Z">
+    <groups>
+    </groups>
+    <test name="HomepageTest" duration-ms="8645" started-at="2018-04-15T05:45:20Z" finished-at="2018-04-15T05:45:29Z">
+      <class name="com.Tests.homepageTest.VerifyHomePage">
+        <test-method status="PASS" signature="checkhomepage()[pri:0, instance:com.Tests.homepageTest.VerifyHomePage@4671e53b]" name="checkhomepage" duration-ms="8280" started-at="2018-04-15T05:45:20Z" finished-at="2018-04-15T05:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkhomepage -->
+      </class> <!-- com.Tests.homepageTest.VerifyHomePage -->
+      <class name="com.testbase.PagefactoryBase">
+        <test-method status="PASS" signature="reportsetup()[pri:0, instance:com.testbase.PagefactoryBase@37374a5e]" name="reportsetup" is-config="true" duration-ms="191" started-at="2018-04-15T05:45:20Z" finished-at="2018-04-15T05:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsetup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testbase.PagefactoryBase@37374a5e]" name="teardown" is-config="true" duration-ms="149" started-at="2018-04-15T05:45:29Z" finished-at="2018-04-15T05:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testbase.PagefactoryBase -->
+    </test> <!-- HomepageTest -->
+    <test name="RegisterTest" duration-ms="37311" started-at="2018-04-15T05:45:29Z" finished-at="2018-04-15T05:46:06Z">
+      <class name="com.register.VerifyRegisterpage">
+        <test-method status="PASS" signature="checkblanksubmit()[pri:0, instance:com.register.VerifyRegisterpage@365185bd]" name="checkblanksubmit" duration-ms="10030" started-at="2018-04-15T05:45:29Z" finished-at="2018-04-15T05:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkblanksubmit -->
+        <test-method status="PASS" signature="checknamesubmit()[pri:1, instance:com.register.VerifyRegisterpage@365185bd]" name="checknamesubmit" duration-ms="4904" started-at="2018-04-15T05:45:39Z" finished-at="2018-04-15T05:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checknamesubmit -->
+        <test-method status="PASS" signature="checkcontactinfosubmit()[pri:2, instance:com.register.VerifyRegisterpage@365185bd]" name="checkcontactinfosubmit" duration-ms="6009" started-at="2018-04-15T05:45:44Z" finished-at="2018-04-15T05:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcontactinfosubmit -->
+        <test-method status="PASS" signature="checkmailinfosubmit()[pri:3, instance:com.register.VerifyRegisterpage@365185bd]" name="checkmailinfosubmit" duration-ms="7263" started-at="2018-04-15T05:45:50Z" finished-at="2018-04-15T05:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkmailinfosubmit -->
+        <test-method status="PASS" signature="checkuserinfosubmit()[pri:4, instance:com.register.VerifyRegisterpage@365185bd]" name="checkuserinfosubmit" duration-ms="9077" started-at="2018-04-15T05:45:57Z" finished-at="2018-04-15T05:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserinfosubmit -->
+      </class> <!-- com.register.VerifyRegisterpage -->
+    </test> <!-- RegisterTest -->
+    <test name="SignonTest" duration-ms="13190" started-at="2018-04-15T05:46:06Z" finished-at="2018-04-15T05:46:19Z">
+      <class name="com.signon.VerifySignonProcess">
+        <test-method status="PASS" signature="checksignonpage()[pri:0, instance:com.signon.VerifySignonProcess@6ec8211c]" name="checksignonpage" duration-ms="13180" started-at="2018-04-15T05:46:06Z" finished-at="2018-04-15T05:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checksignonpage -->
+      </class> <!-- com.signon.VerifySignonProcess -->
+      <class name="com.testbase.PagefactoryBase">
+        <test-method status="PASS" signature="reportend()[pri:0, instance:com.testbase.PagefactoryBase@37374a5e]" name="reportend" is-config="true" duration-ms="660" started-at="2018-04-15T05:46:19Z" finished-at="2018-04-15T05:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportend -->
+      </class> <!-- com.testbase.PagefactoryBase -->
+    </test> <!-- SignonTest -->
+  </suite> <!-- Suite -->
+</testng-results>

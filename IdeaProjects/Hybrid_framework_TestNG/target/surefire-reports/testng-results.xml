@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25510" started-at="2020-08-31T17:33:28Z" finished-at="2020-08-31T17:33:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25510" started-at="2020-08-31T17:33:28Z" finished-at="2020-08-31T17:33:53Z">
+      <class name="com.Hybrid_framework.Testcases.LoginTest">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="setReport" is-config="true" duration-ms="115" started-at="2020-08-31T17:33:28Z" finished-at="2020-08-31T17:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="setupEnv()[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="setupEnv" is-config="true" duration-ms="9526" started-at="2020-08-31T17:33:28Z" finished-at="2020-08-31T17:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnv -->
+        <test-method status="PASS" signature="searchtext(java.lang.String, java.lang.String)[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="searchtext" duration-ms="6227" started-at="2020-08-31T17:33:38Z" data-provider="PlacesData" finished-at="2020-08-31T17:33:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chinnaswamy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cubbon Road, Shivaji Nagar, Bengaluru, Karnataka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtext -->
+        <test-method status="PASS" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="evaluateStatus" is-config="true" duration-ms="2" started-at="2020-08-31T17:33:44Z" finished-at="2020-08-31T17:33:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchtext status=SUCCESS method=LoginTest.searchtext(java.lang.String, java.lang.String)[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluateStatus -->
+        <test-method status="PASS" signature="searchtext(java.lang.String, java.lang.String)[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="searchtext" duration-ms="5849" started-at="2020-08-31T17:33:44Z" data-provider="PlacesData" finished-at="2020-08-31T17:33:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ekana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amar Shaheed Path, Lucknow, Uttar Pradesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtext -->
+        <test-method status="PASS" signature="evaluateStatus(org.testng.ITestResult)[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="evaluateStatus" is-config="true" duration-ms="1" started-at="2020-08-31T17:33:50Z" finished-at="2020-08-31T17:33:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchtext status=SUCCESS method=LoginTest.searchtext(java.lang.String, java.lang.String)[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- evaluateStatus -->
+        <test-method status="PASS" signature="closeEnv()[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="closeEnv" is-config="true" duration-ms="3481" started-at="2020-08-31T17:33:50Z" finished-at="2020-08-31T17:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeEnv -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.Hybrid_framework.Testcases.LoginTest@6767c1fc]" name="endReport" is-config="true" duration-ms="194" started-at="2020-08-31T17:33:53Z" finished-at="2020-08-31T17:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.Hybrid_framework.Testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

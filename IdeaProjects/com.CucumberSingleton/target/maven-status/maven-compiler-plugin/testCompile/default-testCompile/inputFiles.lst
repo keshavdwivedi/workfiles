@@ -1,0 +1,11 @@
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/stepDefs/Guru99_HomepageStepdefs.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/Utils/PropertiesReader.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/pageFactory/Homepage_PO.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/runners/TestRunner.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/pageFactory/AddCustomerpage_PO.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/BaseUtils/WebdriverSetup.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/stepDefs/testSetup/TestSpecifications.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/Utils/BasicUtils.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/Utils/WaitHelper.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/stepDefs/Guru99_CommonStepdefs.java
+/Users/keshavmac/IdeaProjects/com.CucumberSingleton/src/test/java/com/Guru99telecom/stepDefs/Guru99_AddCustomerStepdefs.java

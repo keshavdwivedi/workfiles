@@ -1,0 +1,13 @@
+com/parellelFramework/tests/TestSetup.class
+com/parellelFramework/base/BrowserFactory.class
+com/parellelFramework/testDataSetup/DataProvidersList.class
+com/parellelFramework/utilities/PropertiesFileReader.class
+com/parellelFramework/reportUtils/ExtentReporterUtils.class
+com/parellelFramework/utilities/CommonUtils.class
+com/parellelFramework/testDataSetup/DataProviderReader.class
+com/parellelFramework/testDataSetup/ReadExcelUtility.class
+com/parellelFramework/utilities/CommonWaitHelper.class
+com/parellelFramework/reportUtils/ExtentReportListener.class
+com/parellelFramework/base/DriverFactory.class
+com/parellelFramework/pages/HomepageObjects.class
+com/parellelFramework/tests/LoginTest.class

@@ -1,0 +1,2726 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">88 methods, 6 failed,  8 skipped,  74 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkMainResponseHeading">getCalendarEventRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkContentType">getCheckedSetting_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkHeaderContents">getCheckedSetting_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkResponseTitleText">getCheckedSetting_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkResponseStatusLine">getCustomerRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkStatusCode">getCustomerRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods skipped suite-All_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods skipped suite-All_Test_Suite"> (show)</a> <!-- show-methods skipped suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-All_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkContentType">getClientIdRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkHeaderContents">getClientIdRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkMainResponseHeading">getClientIdRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponse">getClientIdRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponseStatusLine">getClientIdRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponseTime">getClientIdRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponseTitleText">getClientIdRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetAuthorizeClientID" class="method navigator-link" hash-for-method="getClientIdRequest_checkStatusCode">getClientIdRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-All_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkContentType">getCalendarEventNotesRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkHeaderContents">getCalendarEventNotesRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkMainResponseHeading">getCalendarEventNotesRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkResponse">getCalendarEventNotesRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkResponseStatusLine">getCalendarEventNotesRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkResponseTime">getCalendarEventNotesRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkResponseTitleText">getCalendarEventNotesRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.getCalendarEventsNotesPage" class="method navigator-link" hash-for-method="getCalendarEventNotesRequest_checkStatusCode">getCalendarEventNotesRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkContentType">getCalendarEventRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkHeaderContents">getCalendarEventRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkMainResponseHeading">getCalendarEventRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkMainResponseHeading">getCalendarEventRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkMainResponseHeading">getCalendarEventRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkResponse">getCalendarEventRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkResponseStatusLine">getCalendarEventRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkResponseTime">getCalendarEventRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkResponseTitleText">getCalendarEventRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCalendarEventPage" class="method navigator-link" hash-for-method="getCalendarEventRequest_checkStatusCode">getCalendarEventRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkContentType">getCheckedSetting_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkContentType">getCheckedSetting_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkContentType">getCheckedSetting_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkHeaderContents">getCheckedSetting_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkHeaderContents">getCheckedSetting_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkHeaderContents">getCheckedSetting_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkMainResponseHeading">getCheckedSetting_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkResponseStatusLine">getCheckedSetting_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkResponseTime">getCheckedSetting_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkResponseTitleText">getCheckedSetting_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkResponseTitleText">getCheckedSetting_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCheckedSetting_checkResponseTitleText">getCheckedSetting_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSetting_checkStatusCode">getCheckedSetting_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCheckSettings" class="method navigator-link" hash-for-method="getCheckedSettingsRequest">getCheckedSettingsRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkContentType">getClientIdRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkHeaderContents">getClientIdRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkMainResponseHeading">getClientIdRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponse">getClientIdRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponseStatusLine">getClientIdRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponseTime">getClientIdRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkResponseTitleText">getClientIdRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetStartupPage" class="method navigator-link" hash-for-method="getClientIdRequest_checkStatusCode">getClientIdRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCustomerParamsRequest">getCustomerParamsRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCustomerParamsRequest">getCustomerParamsRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCustomerParamsRequest">getCustomerParamsRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkResponseStatusLine">getCustomerRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkResponseStatusLine">getCustomerRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerRecordPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkResponseTime">getCustomerRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkResponseTime">getCustomerRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkResponseTime">getCustomerRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetMySalesPolicyDataPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkStatusCode">getCustomerRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetPortalPage" class="method navigator-link" hash-for-method="getCustomerRequest_checkStatusCode">getCustomerRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkContentType">getDistributorPageRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkContentType">getDistributorPageRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkHeaderContents">getDistributorPageRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkHeaderContents">getDistributorPageRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkMainResponseHeading">getDistributorPageRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkMainResponseHeading">getDistributorPageRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponse">getDistributorPageRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponse">getDistributorPageRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponseStatusLine">getDistributorPageRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponseStatusLine">getDistributorPageRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponseTime">getDistributorPageRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponseTime">getDistributorPageRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponseTitleText">getDistributorPageRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkResponseTitleText">getDistributorPageRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetLogoutPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkStatusCode">getDistributorPageRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetDistributorStatusPage" class="method navigator-link" hash-for-method="getDistributorPageRequest_checkStatusCode">getDistributorPageRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkContentType">getGetCustomerNotesRequest_checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkHeaderContents">getGetCustomerNotesRequest_checkHeaderContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkMainResponseHeading">getGetCustomerNotesRequest_checkMainResponseHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkResponse">getGetCustomerNotesRequest_checkResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkResponseStatusLine">getGetCustomerNotesRequest_checkResponseStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkResponseTime">getGetCustomerNotesRequest_checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkResponseTitleText">getGetCustomerNotesRequest_checkResponseTitleText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="GetRequests.GetCustomerNotesPage" class="method navigator-link" hash-for-method="getGetCustomerNotesRequest_checkStatusCode">getGetCustomerNotesRequest_checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">GetRequests.GetCustomerRecordPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkMainResponseHeading">
+                  </a> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+                  <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at GetRequests.GetCustomerRecordPage.getCalendarEventRequest_checkMainResponseHeading(GetCustomerRecordPage.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkContentType">
+                  </a> <!-- getCheckedSetting_checkContentType -->
+                  <span class="method-name">getCheckedSetting_checkContentType</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkContentType(GetCustomerRecordPage.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkHeaderContents">
+                  </a> <!-- getCheckedSetting_checkHeaderContents -->
+                  <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkHeaderContents(GetCustomerRecordPage.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkResponseTitleText">
+                  </a> <!-- getCheckedSetting_checkResponseTitleText -->
+                  <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Authentication Account Login] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkResponseTitleText(GetCustomerRecordPage.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkResponseStatusLine">
+                  </a> <!-- getCustomerRequest_checkResponseStatusLine -->
+                  <span class="method-name">getCustomerRequest_checkResponseStatusLine</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at GetRequests.GetCustomerRecordPage.getCustomerRequest_checkResponseStatusLine(GetCustomerRecordPage.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkStatusCode">
+                  </a> <!-- getCustomerRequest_checkStatusCode -->
+                  <span class="method-name">getCustomerRequest_checkStatusCode</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at GetRequests.GetCustomerRecordPage.getCustomerRequest_checkStatusCode(GetCustomerRecordPage.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">GetRequests.GetAuthorizeClientID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkContentType">
+                  </a> <!-- getClientIdRequest_checkContentType -->
+                  <span class="method-name">getClientIdRequest_checkContentType</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkHeaderContents">
+                  </a> <!-- getClientIdRequest_checkHeaderContents -->
+                  <span class="method-name">getClientIdRequest_checkHeaderContents</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkMainResponseHeading">
+                  </a> <!-- getClientIdRequest_checkMainResponseHeading -->
+                  <span class="method-name">getClientIdRequest_checkMainResponseHeading</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponse">
+                  </a> <!-- getClientIdRequest_checkResponse -->
+                  <span class="method-name">getClientIdRequest_checkResponse</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponseStatusLine">
+                  </a> <!-- getClientIdRequest_checkResponseStatusLine -->
+                  <span class="method-name">getClientIdRequest_checkResponseStatusLine</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponseTime">
+                  </a> <!-- getClientIdRequest_checkResponseTime -->
+                  <span class="method-name">getClientIdRequest_checkResponseTime</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponseTitleText">
+                  </a> <!-- getClientIdRequest_checkResponseTitleText -->
+                  <span class="method-name">getClientIdRequest_checkResponseTitleText</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkStatusCode">
+                  </a> <!-- getClientIdRequest_checkStatusCode -->
+                  <span class="method-name">getClientIdRequest_checkStatusCode</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-skipped -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetCustomerRecordPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerParamsRequest">
+                  </a> <!-- getCustomerParamsRequest -->
+                  <span class="method-name">getCustomerParamsRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkResponseTime">
+                  </a> <!-- getCustomerRequest_checkResponseTime -->
+                  <span class="method-name">getCustomerRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetCalendarEventPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkContentType">
+                  </a> <!-- getCalendarEventRequest_checkContentType -->
+                  <span class="method-name">getCalendarEventRequest_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkHeaderContents">
+                  </a> <!-- getCalendarEventRequest_checkHeaderContents -->
+                  <span class="method-name">getCalendarEventRequest_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkMainResponseHeading">
+                  </a> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+                  <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkResponse">
+                  </a> <!-- getCalendarEventRequest_checkResponse -->
+                  <span class="method-name">getCalendarEventRequest_checkResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkResponseStatusLine">
+                  </a> <!-- getCalendarEventRequest_checkResponseStatusLine -->
+                  <span class="method-name">getCalendarEventRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkResponseTime">
+                  </a> <!-- getCalendarEventRequest_checkResponseTime -->
+                  <span class="method-name">getCalendarEventRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkResponseTitleText">
+                  </a> <!-- getCalendarEventRequest_checkResponseTitleText -->
+                  <span class="method-name">getCalendarEventRequest_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkStatusCode">
+                  </a> <!-- getCalendarEventRequest_checkStatusCode -->
+                  <span class="method-name">getCalendarEventRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.getCalendarEventsNotesPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkContentType">
+                  </a> <!-- getCalendarEventNotesRequest_checkContentType -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkHeaderContents">
+                  </a> <!-- getCalendarEventNotesRequest_checkHeaderContents -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkMainResponseHeading">
+                  </a> <!-- getCalendarEventNotesRequest_checkMainResponseHeading -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkResponse">
+                  </a> <!-- getCalendarEventNotesRequest_checkResponse -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkResponseStatusLine">
+                  </a> <!-- getCalendarEventNotesRequest_checkResponseStatusLine -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkResponseTime">
+                  </a> <!-- getCalendarEventNotesRequest_checkResponseTime -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkResponseTitleText">
+                  </a> <!-- getCalendarEventNotesRequest_checkResponseTitleText -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventNotesRequest_checkStatusCode">
+                  </a> <!-- getCalendarEventNotesRequest_checkStatusCode -->
+                  <span class="method-name">getCalendarEventNotesRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetStartupPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkContentType">
+                  </a> <!-- getClientIdRequest_checkContentType -->
+                  <span class="method-name">getClientIdRequest_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkHeaderContents">
+                  </a> <!-- getClientIdRequest_checkHeaderContents -->
+                  <span class="method-name">getClientIdRequest_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkMainResponseHeading">
+                  </a> <!-- getClientIdRequest_checkMainResponseHeading -->
+                  <span class="method-name">getClientIdRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponse">
+                  </a> <!-- getClientIdRequest_checkResponse -->
+                  <span class="method-name">getClientIdRequest_checkResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponseStatusLine">
+                  </a> <!-- getClientIdRequest_checkResponseStatusLine -->
+                  <span class="method-name">getClientIdRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponseTime">
+                  </a> <!-- getClientIdRequest_checkResponseTime -->
+                  <span class="method-name">getClientIdRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkResponseTitleText">
+                  </a> <!-- getClientIdRequest_checkResponseTitleText -->
+                  <span class="method-name">getClientIdRequest_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClientIdRequest_checkStatusCode">
+                  </a> <!-- getClientIdRequest_checkStatusCode -->
+                  <span class="method-name">getClientIdRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetDistributorStatusPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkContentType">
+                  </a> <!-- getDistributorPageRequest_checkContentType -->
+                  <span class="method-name">getDistributorPageRequest_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkHeaderContents">
+                  </a> <!-- getDistributorPageRequest_checkHeaderContents -->
+                  <span class="method-name">getDistributorPageRequest_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkMainResponseHeading">
+                  </a> <!-- getDistributorPageRequest_checkMainResponseHeading -->
+                  <span class="method-name">getDistributorPageRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponse">
+                  </a> <!-- getDistributorPageRequest_checkResponse -->
+                  <span class="method-name">getDistributorPageRequest_checkResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponseStatusLine">
+                  </a> <!-- getDistributorPageRequest_checkResponseStatusLine -->
+                  <span class="method-name">getDistributorPageRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponseTime">
+                  </a> <!-- getDistributorPageRequest_checkResponseTime -->
+                  <span class="method-name">getDistributorPageRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponseTitleText">
+                  </a> <!-- getDistributorPageRequest_checkResponseTitleText -->
+                  <span class="method-name">getDistributorPageRequest_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkStatusCode">
+                  </a> <!-- getDistributorPageRequest_checkStatusCode -->
+                  <span class="method-name">getDistributorPageRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetCustomerNotesPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkContentType">
+                  </a> <!-- getGetCustomerNotesRequest_checkContentType -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkHeaderContents">
+                  </a> <!-- getGetCustomerNotesRequest_checkHeaderContents -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkMainResponseHeading">
+                  </a> <!-- getGetCustomerNotesRequest_checkMainResponseHeading -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkResponse">
+                  </a> <!-- getGetCustomerNotesRequest_checkResponse -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkResponseStatusLine">
+                  </a> <!-- getGetCustomerNotesRequest_checkResponseStatusLine -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkResponseTime">
+                  </a> <!-- getGetCustomerNotesRequest_checkResponseTime -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkResponseTitleText">
+                  </a> <!-- getGetCustomerNotesRequest_checkResponseTitleText -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGetCustomerNotesRequest_checkStatusCode">
+                  </a> <!-- getGetCustomerNotesRequest_checkStatusCode -->
+                  <span class="method-name">getGetCustomerNotesRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetCheckSettings</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkContentType">
+                  </a> <!-- getCheckedSetting_checkContentType -->
+                  <span class="method-name">getCheckedSetting_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkHeaderContents">
+                  </a> <!-- getCheckedSetting_checkHeaderContents -->
+                  <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkMainResponseHeading">
+                  </a> <!-- getCheckedSetting_checkMainResponseHeading -->
+                  <span class="method-name">getCheckedSetting_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkResponseStatusLine">
+                  </a> <!-- getCheckedSetting_checkResponseStatusLine -->
+                  <span class="method-name">getCheckedSetting_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkResponseTime">
+                  </a> <!-- getCheckedSetting_checkResponseTime -->
+                  <span class="method-name">getCheckedSetting_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkResponseTitleText">
+                  </a> <!-- getCheckedSetting_checkResponseTitleText -->
+                  <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkStatusCode">
+                  </a> <!-- getCheckedSetting_checkStatusCode -->
+                  <span class="method-name">getCheckedSetting_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSettingsRequest">
+                  </a> <!-- getCheckedSettingsRequest -->
+                  <span class="method-name">getCheckedSettingsRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetMySalesPolicyDataPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkMainResponseHeading">
+                  </a> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+                  <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkContentType">
+                  </a> <!-- getCheckedSetting_checkContentType -->
+                  <span class="method-name">getCheckedSetting_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkHeaderContents">
+                  </a> <!-- getCheckedSetting_checkHeaderContents -->
+                  <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkResponseTitleText">
+                  </a> <!-- getCheckedSetting_checkResponseTitleText -->
+                  <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerParamsRequest">
+                  </a> <!-- getCustomerParamsRequest -->
+                  <span class="method-name">getCustomerParamsRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkResponseStatusLine">
+                  </a> <!-- getCustomerRequest_checkResponseStatusLine -->
+                  <span class="method-name">getCustomerRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkResponseTime">
+                  </a> <!-- getCustomerRequest_checkResponseTime -->
+                  <span class="method-name">getCustomerRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkStatusCode">
+                  </a> <!-- getCustomerRequest_checkStatusCode -->
+                  <span class="method-name">getCustomerRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetLogoutPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkContentType">
+                  </a> <!-- getDistributorPageRequest_checkContentType -->
+                  <span class="method-name">getDistributorPageRequest_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkHeaderContents">
+                  </a> <!-- getDistributorPageRequest_checkHeaderContents -->
+                  <span class="method-name">getDistributorPageRequest_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkMainResponseHeading">
+                  </a> <!-- getDistributorPageRequest_checkMainResponseHeading -->
+                  <span class="method-name">getDistributorPageRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponse">
+                  </a> <!-- getDistributorPageRequest_checkResponse -->
+                  <span class="method-name">getDistributorPageRequest_checkResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponseStatusLine">
+                  </a> <!-- getDistributorPageRequest_checkResponseStatusLine -->
+                  <span class="method-name">getDistributorPageRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponseTime">
+                  </a> <!-- getDistributorPageRequest_checkResponseTime -->
+                  <span class="method-name">getDistributorPageRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkResponseTitleText">
+                  </a> <!-- getDistributorPageRequest_checkResponseTitleText -->
+                  <span class="method-name">getDistributorPageRequest_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDistributorPageRequest_checkStatusCode">
+                  </a> <!-- getDistributorPageRequest_checkStatusCode -->
+                  <span class="method-name">getDistributorPageRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetRequests.GetPortalPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCalendarEventRequest_checkMainResponseHeading">
+                  </a> <!-- getCalendarEventRequest_checkMainResponseHeading -->
+                  <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkContentType">
+                  </a> <!-- getCheckedSetting_checkContentType -->
+                  <span class="method-name">getCheckedSetting_checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkHeaderContents">
+                  </a> <!-- getCheckedSetting_checkHeaderContents -->
+                  <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCheckedSetting_checkResponseTitleText">
+                  </a> <!-- getCheckedSetting_checkResponseTitleText -->
+                  <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerParamsRequest">
+                  </a> <!-- getCustomerParamsRequest -->
+                  <span class="method-name">getCustomerParamsRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkResponseStatusLine">
+                  </a> <!-- getCustomerRequest_checkResponseStatusLine -->
+                  <span class="method-name">getCustomerRequest_checkResponseStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkResponseTime">
+                  </a> <!-- getCustomerRequest_checkResponseTime -->
+                  <span class="method-name">getCustomerRequest_checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCustomerRequest_checkStatusCode">
+                  </a> <!-- getCustomerRequest_checkStatusCode -->
+                  <span class="method-name">getCustomerRequest_checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ReportingSetup.ReportSetup&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HP One API Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GetRequests.GetAuthorizeClientID&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetCalendarEventPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetCheckSettings&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetCustomerNotesPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetCustomerRecordPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetDistributorStatusPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetLogoutPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetMySalesPolicyDataPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetPortalPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.GetStartupPage&quot;/&gt;
+      &lt;class name=&quot;GetRequests.getCalendarEventsNotesPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HP One API Test --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HP One API Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(88);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getCalendarEventRequest_checkResponseTitleText')
+data.setCell(0, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(0, 3, 604);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getCalendarEventRequest_checkResponse')
+data.setCell(1, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(1, 3, 330);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getCalendarEventRequest_checkResponseTime')
+data.setCell(2, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(2, 3, 31);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getCheckedSetting_checkResponseTitleText')
+data.setCell(3, 2, 'GetRequests.GetCheckSettings')
+data.setCell(3, 3, 25);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getCheckedSetting_checkResponseTitleText')
+data.setCell(4, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(4, 3, 24);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getCheckedSetting_checkResponseTitleText')
+data.setCell(5, 2, 'GetRequests.GetPortalPage')
+data.setCell(5, 3, 23);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getCheckedSettingsRequest')
+data.setCell(6, 2, 'GetRequests.GetCheckSettings')
+data.setCell(6, 3, 22);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getCheckedSetting_checkResponseTitleText')
+data.setCell(7, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(7, 3, 21);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getGetCustomerNotesRequest_checkResponseTitleText')
+data.setCell(8, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(8, 3, 15);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getDistributorPageRequest_checkResponseTitleText')
+data.setCell(9, 2, 'GetRequests.GetLogoutPage')
+data.setCell(9, 3, 14);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getCalendarEventNotesRequest_checkResponseTitleText')
+data.setCell(10, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(10, 3, 14);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getClientIdRequest_checkResponseTitleText')
+data.setCell(11, 2, 'GetRequests.GetStartupPage')
+data.setCell(11, 3, 13);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getDistributorPageRequest_checkResponseTitleText')
+data.setCell(12, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(12, 3, 13);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getCustomerParamsRequest')
+data.setCell(13, 2, 'GetRequests.GetPortalPage')
+data.setCell(13, 3, 13);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getGetCustomerNotesRequest_checkResponse')
+data.setCell(14, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(14, 3, 11);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getCustomerParamsRequest')
+data.setCell(15, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(15, 3, 11);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getCustomerRequest_checkStatusCode')
+data.setCell(16, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(16, 3, 11);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getCustomerParamsRequest')
+data.setCell(17, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(17, 3, 10);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getDistributorPageRequest_checkResponse')
+data.setCell(18, 2, 'GetRequests.GetLogoutPage')
+data.setCell(18, 3, 7);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getDistributorPageRequest_checkResponse')
+data.setCell(19, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(19, 3, 7);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getCalendarEventRequest_checkStatusCode')
+data.setCell(20, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(20, 3, 6);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'getClientIdRequest_checkResponse')
+data.setCell(21, 2, 'GetRequests.GetStartupPage')
+data.setCell(21, 3, 5);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'getCalendarEventNotesRequest_checkResponse')
+data.setCell(22, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(22, 3, 5);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'getCalendarEventRequest_checkResponseStatusLine')
+data.setCell(23, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(23, 3, 4);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getCalendarEventRequest_checkHeaderContents')
+data.setCell(24, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(24, 3, 4);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'getCalendarEventNotesRequest_checkResponseTime')
+data.setCell(25, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(25, 3, 2);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getCheckedSetting_checkResponseTime')
+data.setCell(26, 2, 'GetRequests.GetCheckSettings')
+data.setCell(26, 3, 2);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'getCustomerRequest_checkResponseTime')
+data.setCell(27, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(27, 3, 2);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'getDistributorPageRequest_checkStatusCode')
+data.setCell(28, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(28, 3, 2);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'getClientIdRequest_checkResponseTime')
+data.setCell(29, 2, 'GetRequests.GetStartupPage')
+data.setCell(29, 3, 2);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getGetCustomerNotesRequest_checkResponseTime')
+data.setCell(30, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(30, 3, 2);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getGetCustomerNotesRequest_checkResponseStatusLine')
+data.setCell(31, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(31, 3, 2);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'getCustomerRequest_checkResponseTime')
+data.setCell(32, 2, 'GetRequests.GetPortalPage')
+data.setCell(32, 3, 2);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'getGetCustomerNotesRequest_checkMainResponseHeading')
+data.setCell(33, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'getDistributorPageRequest_checkResponseStatusLine')
+data.setCell(34, 2, 'GetRequests.GetLogoutPage')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'getClientIdRequest_checkStatusCode')
+data.setCell(35, 2, 'GetRequests.GetStartupPage')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'getCheckedSetting_checkContentType')
+data.setCell(36, 2, 'GetRequests.GetCheckSettings')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'getDistributorPageRequest_checkResponseStatusLine')
+data.setCell(37, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'getCalendarEventRequest_checkMainResponseHeading')
+data.setCell(38, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'getCheckedSetting_checkStatusCode')
+data.setCell(39, 2, 'GetRequests.GetCheckSettings')
+data.setCell(39, 3, 1);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'getCustomerRequest_checkResponseStatusLine')
+data.setCell(40, 2, 'GetRequests.GetPortalPage')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'getCalendarEventNotesRequest_checkStatusCode')
+data.setCell(41, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'getCalendarEventRequest_checkMainResponseHeading')
+data.setCell(42, 2, 'GetRequests.GetPortalPage')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'getCustomerRequest_checkStatusCode')
+data.setCell(43, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'getDistributorPageRequest_checkResponseTime')
+data.setCell(44, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(44, 3, 1);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'getCheckedSetting_checkContentType')
+data.setCell(45, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(45, 3, 1);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'getDistributorPageRequest_checkMainResponseHeading')
+data.setCell(46, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(46, 3, 1);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'getClientIdRequest_checkMainResponseHeading')
+data.setCell(47, 2, 'GetRequests.GetStartupPage')
+data.setCell(47, 3, 1);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'getCheckedSetting_checkHeaderContents')
+data.setCell(48, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(48, 3, 1);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'getDistributorPageRequest_checkResponseTime')
+data.setCell(49, 2, 'GetRequests.GetLogoutPage')
+data.setCell(49, 3, 1);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'getDistributorPageRequest_checkStatusCode')
+data.setCell(50, 2, 'GetRequests.GetLogoutPage')
+data.setCell(50, 3, 1);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'getDistributorPageRequest_checkMainResponseHeading')
+data.setCell(51, 2, 'GetRequests.GetLogoutPage')
+data.setCell(51, 3, 1);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'getCalendarEventRequest_checkContentType')
+data.setCell(52, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(52, 3, 1);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'getCustomerRequest_checkResponseTime')
+data.setCell(53, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(53, 3, 1);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'getCalendarEventNotesRequest_checkHeaderContents')
+data.setCell(54, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(54, 3, 1);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'getCalendarEventNotesRequest_checkContentType')
+data.setCell(55, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(55, 3, 1);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'getGetCustomerNotesRequest_checkStatusCode')
+data.setCell(56, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(56, 3, 1);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'getCalendarEventRequest_checkMainResponseHeading')
+data.setCell(57, 2, 'GetRequests.GetCalendarEventPage')
+data.setCell(57, 3, 1);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'getDistributorPageRequest_checkContentType')
+data.setCell(58, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(58, 3, 1);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'getCalendarEventNotesRequest_checkMainResponseHeading')
+data.setCell(59, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(59, 3, 1);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'getCheckedSetting_checkHeaderContents')
+data.setCell(60, 2, 'GetRequests.GetPortalPage')
+data.setCell(60, 3, 1);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'getCheckedSetting_checkMainResponseHeading')
+data.setCell(61, 2, 'GetRequests.GetCheckSettings')
+data.setCell(61, 3, 1);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'getCustomerRequest_checkStatusCode')
+data.setCell(62, 2, 'GetRequests.GetPortalPage')
+data.setCell(62, 3, 1);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'getClientIdRequest_checkResponseStatusLine')
+data.setCell(63, 2, 'GetRequests.GetStartupPage')
+data.setCell(63, 3, 1);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'getCheckedSetting_checkHeaderContents')
+data.setCell(64, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(64, 3, 1);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'getCalendarEventRequest_checkMainResponseHeading')
+data.setCell(65, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(65, 3, 1);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'getClientIdRequest_checkStatusCode')
+data.setCell(66, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(66, 3, 1);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'getCheckedSetting_checkHeaderContents')
+data.setCell(67, 2, 'GetRequests.GetCheckSettings')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'getCheckedSetting_checkResponseStatusLine')
+data.setCell(68, 2, 'GetRequests.GetCheckSettings')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'getClientIdRequest_checkHeaderContents')
+data.setCell(69, 2, 'GetRequests.GetStartupPage')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'getGetCustomerNotesRequest_checkHeaderContents')
+data.setCell(70, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'getClientIdRequest_checkContentType')
+data.setCell(71, 2, 'GetRequests.GetStartupPage')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'getDistributorPageRequest_checkContentType')
+data.setCell(72, 2, 'GetRequests.GetLogoutPage')
+data.setCell(72, 3, 0);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'getGetCustomerNotesRequest_checkContentType')
+data.setCell(73, 2, 'GetRequests.GetCustomerNotesPage')
+data.setCell(73, 3, 0);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'getCalendarEventNotesRequest_checkResponseStatusLine')
+data.setCell(74, 2, 'GetRequests.getCalendarEventsNotesPage')
+data.setCell(74, 3, 0);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'getDistributorPageRequest_checkHeaderContents')
+data.setCell(75, 2, 'GetRequests.GetLogoutPage')
+data.setCell(75, 3, 0);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'getDistributorPageRequest_checkHeaderContents')
+data.setCell(76, 2, 'GetRequests.GetDistributorStatusPage')
+data.setCell(76, 3, 0);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'getCustomerRequest_checkResponseStatusLine')
+data.setCell(77, 2, 'GetRequests.GetMySalesPolicyDataPage')
+data.setCell(77, 3, 0);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'getCheckedSetting_checkContentType')
+data.setCell(78, 2, 'GetRequests.GetPortalPage')
+data.setCell(78, 3, 0);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'getCustomerRequest_checkResponseStatusLine')
+data.setCell(79, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'getCheckedSetting_checkContentType')
+data.setCell(80, 2, 'GetRequests.GetCustomerRecordPage')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'getClientIdRequest_checkResponse')
+data.setCell(81, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(81, 3, 0);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'getClientIdRequest_checkMainResponseHeading')
+data.setCell(82, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(82, 3, 0);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'getClientIdRequest_checkHeaderContents')
+data.setCell(83, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(83, 3, 0);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'getClientIdRequest_checkContentType')
+data.setCell(84, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(84, 3, 0);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'getClientIdRequest_checkResponseTitleText')
+data.setCell(85, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(85, 3, 0);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'getClientIdRequest_checkResponseTime')
+data.setCell(86, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(86, 3, 0);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'getClientIdRequest_checkResponseStatusLine')
+data.setCell(87, 2, 'GetRequests.GetAuthorizeClientID')
+data.setCell(87, 3, 0);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetAuthorizeClientID</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getClientIdRequest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponse</span>
+                <span class="method-start">7620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponseTime</span>
+                <span class="method-start">7629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkStatusCode</span>
+                <span class="method-start">7630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponseStatusLine</span>
+                <span class="method-start">7631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkHeaderContents</span>
+                <span class="method-start">7632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkContentType</span>
+                <span class="method-start">7633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponseTitleText</span>
+                <span class="method-start">7634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkMainResponseHeading</span>
+                <span class="method-start">7635 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetCalendarEventPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getCalendarEventRequest</span>
+                <span class="method-start">7636 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkResponse</span>
+                <span class="method-start">10341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkResponseTime</span>
+                <span class="method-start">10675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkStatusCode</span>
+                <span class="method-start">10707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkResponseStatusLine</span>
+                <span class="method-start">10714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkHeaderContents</span>
+                <span class="method-start">10719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkContentType</span>
+                <span class="method-start">10724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkResponseTitleText</span>
+                <span class="method-start">10726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                <span class="method-start">11331 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetCheckSettings</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">callGetCheckedSettingRequest</span>
+                <span class="method-start">11332 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSettingsRequest</span>
+                <span class="method-start">14011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkResponseTime</span>
+                <span class="method-start">14035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkStatusCode</span>
+                <span class="method-start">14037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkResponseStatusLine</span>
+                <span class="method-start">14039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                <span class="method-start">14040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkContentType</span>
+                <span class="method-start">14041 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                <span class="method-start">14043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkMainResponseHeading</span>
+                <span class="method-start">14069 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetCustomerNotesPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">callGetCustomerNotesRequest</span>
+                <span class="method-start">14071 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkResponse</span>
+                <span class="method-start">16537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkResponseTime</span>
+                <span class="method-start">16548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkStatusCode</span>
+                <span class="method-start">16551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkResponseStatusLine</span>
+                <span class="method-start">16553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkHeaderContents</span>
+                <span class="method-start">16556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkContentType</span>
+                <span class="method-start">16557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkResponseTitleText</span>
+                <span class="method-start">16558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getGetCustomerNotesRequest_checkMainResponseHeading</span>
+                <span class="method-start">16573 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetCustomerRecordPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">callGetCustomerRequest</span>
+                <span class="method-start">16574 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerParamsRequest</span>
+                <span class="method-start">17568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkResponseTime</span>
+                <span class="method-start">17578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCustomerRequest_checkStatusCode</span>
+                <span class="method-start">17581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCustomerRequest_checkResponseStatusLine</span>
+                <span class="method-start">17594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                <span class="method-start">17595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCheckedSetting_checkContentType</span>
+                <span class="method-start">17597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                <span class="method-start">17599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                <span class="method-start">17624 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetDistributorStatusPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getDistributorPageRequest</span>
+                <span class="method-start">17626 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponse</span>
+                <span class="method-start">20169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponseTime</span>
+                <span class="method-start">20177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkStatusCode</span>
+                <span class="method-start">20179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponseStatusLine</span>
+                <span class="method-start">20182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkHeaderContents</span>
+                <span class="method-start">20184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkContentType</span>
+                <span class="method-start">20184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponseTitleText</span>
+                <span class="method-start">20185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkMainResponseHeading</span>
+                <span class="method-start">20199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetLogoutPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">callGetLogoutRequest</span>
+                <span class="method-start">20200 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponse</span>
+                <span class="method-start">21399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponseTime</span>
+                <span class="method-start">21407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkStatusCode</span>
+                <span class="method-start">21408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponseStatusLine</span>
+                <span class="method-start">21410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkHeaderContents</span>
+                <span class="method-start">21412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkContentType</span>
+                <span class="method-start">21413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkResponseTitleText</span>
+                <span class="method-start">21414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getDistributorPageRequest_checkMainResponseHeading</span>
+                <span class="method-start">21429 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetMySalesPolicyDataPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getSalesPolicyRequest</span>
+                <span class="method-start">21430 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerParamsRequest</span>
+                <span class="method-start">23833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkResponseTime</span>
+                <span class="method-start">23845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkStatusCode</span>
+                <span class="method-start">23847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkResponseStatusLine</span>
+                <span class="method-start">23849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                <span class="method-start">23850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkContentType</span>
+                <span class="method-start">23851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                <span class="method-start">23852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                <span class="method-start">23874 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetPortalPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getPortalPageRequest</span>
+                <span class="method-start">23876 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCustomerParamsRequest</span>
+                <span class="method-start">27512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkResponseTime</span>
+                <span class="method-start">27526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkStatusCode</span>
+                <span class="method-start">27529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCustomerRequest_checkResponseStatusLine</span>
+                <span class="method-start">27531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkHeaderContents</span>
+                <span class="method-start">27532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkContentType</span>
+                <span class="method-start">27534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCheckedSetting_checkResponseTitleText</span>
+                <span class="method-start">27535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventRequest_checkMainResponseHeading</span>
+                <span class="method-start">27560 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.GetStartupPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getStartupRequest</span>
+                <span class="method-start">27562 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponse</span>
+                <span class="method-start">32350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponseTime</span>
+                <span class="method-start">32356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkStatusCode</span>
+                <span class="method-start">32358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponseStatusLine</span>
+                <span class="method-start">32360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkHeaderContents</span>
+                <span class="method-start">32362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkContentType</span>
+                <span class="method-start">32363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkResponseTitleText</span>
+                <span class="method-start">32364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getClientIdRequest_checkMainResponseHeading</span>
+                <span class="method-start">32377 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetRequests.getCalendarEventsNotesPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getCalendarEventsNotesRequest</span>
+                <span class="method-start">32378 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkResponse</span>
+                <span class="method-start">35116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkResponseTime</span>
+                <span class="method-start">35121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkStatusCode</span>
+                <span class="method-start">35124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkResponseStatusLine</span>
+                <span class="method-start">35126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkHeaderContents</span>
+                <span class="method-start">35127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkContentType</span>
+                <span class="method-start">35128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkResponseTitleText</span>
+                <span class="method-start">35129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getCalendarEventNotesRequest_checkMainResponseHeading</span>
+                <span class="method-start">35143 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

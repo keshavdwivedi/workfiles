@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.51">
+<testcase classname="To test the Search feature of application" name="To test search functionality with blank submit" time="15.371">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When user opens browser and navigates to test url...........................passed
+Given user should be on home page...........................................passed
+And search textfield should be visible......................................passed
+When user clicks on search button...........................................passed
+Then user should be displayed validation message "Please enter a search keyword".failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.framework.stepDef.ProductList_stepDef.user_should_be_displayed_validation_message(ProductList_stepDef.java:14)
+	at ✽.user should be displayed validation message "Please enter a search keyword"(file:///Users/keshavmac/IdeaProjects/com.CucumberHybrid/src/test/java/com/framework/features/Home.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.base.Testspecification"></listener>
+</listeners>
+  <test name="HomepageTest">
+    <classes>
+      <class name="com.Singleton.hompageTest.VerifyHomepage"/>
+    </classes>
+  </test> 
+  <test name="SignupTest1">
+    <classes>
+      <class name="com.Singleton.signuptest.VerifysignupOne"/>
+    </classes>
+  </test> 
+   <test name="SignupTest2">
+    <classes>
+      <class name="com.Singleton.signuptest.VerifysignupTwo"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+2020-08-31 23:03:38,536 [main] INFO com.Hybrid_framework.Pages.LoginPage - The search text Chinnaswamy has been entered
+2020-08-31 23:03:44,257 [main] INFO com.Hybrid_framework.Pages.LoginPage - The search text has been cleared
+2020-08-31 23:03:44,387 [main] INFO com.Hybrid_framework.BaseSetup.Baseclass - The test case passed is searchtext
+2020-08-31 23:03:44,490 [main] INFO com.Hybrid_framework.Pages.LoginPage - The search text Ekana has been entered
+2020-08-31 23:03:50,123 [main] INFO com.Hybrid_framework.Pages.LoginPage - The search text has been cleared
+2020-08-31 23:03:50,238 [main] INFO com.Hybrid_framework.BaseSetup.Baseclass - The test case passed is searchtext

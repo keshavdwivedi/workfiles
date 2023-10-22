@@ -1,0 +1,11 @@
+com/Hybrid_framework/DataSetup/ExcelDataProviders.class
+com/Hybrid_framework/BaseSetup/Baseclass.class
+com/Hybrid_framework/DataSetup/DataProviderConfig.class
+com/Hybrid_framework/Pages/LoginPage.class
+com/Hybrid_framework/DataSetup/ReadExcelUtility.class
+com/Hybrid_framework/Testcases/LoginTest.class
+com/Hybrid_framework/Utilities/PropertiesReader.class
+com/Hybrid_framework/Utilities/PreConfigUtils.class
+com/Hybrid_framework/BaseSetup/BrowserSetup.class
+com/Hybrid_framework/Utilities/MyScreenRecorder.class
+com/Hybrid_framework/Utilities/CustomUtility.class

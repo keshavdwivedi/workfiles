@@ -1,0 +1,11 @@
+GetRequests/GetCustomerRecordPage.class
+GetRequests/GetCalendarEventPage.class
+GetRequests/GetPortalPage.class
+GetRequests/getCalendarEventsNotesPage.class
+GetRequests/GetStartupPage.class
+GetRequests/GetLogoutPage.class
+GetRequests/GetCustomerNotesPage.class
+GetRequests/GetMySalesPolicyDataPage.class
+GetRequests/GetAuthorizeClientID.class
+GetRequests/GetCheckSettings.class
+GetRequests/GetDistributorStatusPage.class

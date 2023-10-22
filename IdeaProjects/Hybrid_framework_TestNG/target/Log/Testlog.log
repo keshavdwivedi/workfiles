@@ -1,0 +1,6 @@
+ INFO 2020-08-31 23:03:38,536 LoginPage.java [main] Hybrid_framework.Pages.LoginPage:30 - The search text Chinnaswamy has been entered
+ INFO 2020-08-31 23:03:44,257 LoginPage.java [main] Hybrid_framework.Pages.LoginPage:35 - The search text has been cleared
+ INFO 2020-08-31 23:03:44,387 Baseclass.java [main] Hybrid_framework.BaseSetup.Baseclass:87 - The test case passed is searchtext
+ INFO 2020-08-31 23:03:44,490 LoginPage.java [main] Hybrid_framework.Pages.LoginPage:30 - The search text Ekana has been entered
+ INFO 2020-08-31 23:03:50,123 LoginPage.java [main] Hybrid_framework.Pages.LoginPage:35 - The search text has been cleared
+ INFO 2020-08-31 23:03:50,238 Baseclass.java [main] Hybrid_framework.BaseSetup.Baseclass:87 - The test case passed is searchtext

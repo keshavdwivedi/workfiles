@@ -1,0 +1,5 @@
+[INFO ] 2020-10-01 00:52:24.017 [TestNG-tests-1] HomepageObjects - Entered values User1 and password1 in username and password fields
+[INFO ] 2020-10-01 00:52:24.486 [TestNG-tests-1] HomepageObjects - Login button clicked
+[INFO ] 2020-10-01 00:52:25.396 [TestNG-tests-1] HomepageObjects - Entered values User2 and password2
+ in username and password fields
+[INFO ] 2020-10-01 00:52:25.912 [TestNG-tests-1] HomepageObjects - Login button clicked

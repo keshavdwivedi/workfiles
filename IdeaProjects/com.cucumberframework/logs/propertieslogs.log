@@ -1,0 +1,27 @@
+[INFO ] 2020-08-10 22:58:48.626 [main] LoginPageObjects - Screenshot taken and stored on file path/Users/keshavmac/Documents/workspace-eclipse/com.cucumberframework/target/Screenshots/1597080528078.png
+[INFO ] 2020-08-10 22:58:49.112 [main] LoginPageObjects - Screenshot attached in the report
+[INFO ] 2020-08-10 22:58:49.113 [main] LoginPageObjects - Closing driver instance
+[INFO ] 2020-08-10 22:59:26.984 [main] LoginPageObjects - Screenshot taken and stored on file path/Users/keshavmac/Documents/workspace-eclipse/com.cucumberframework/target/Screenshots/1597080566436.png
+[INFO ] 2020-08-10 22:59:27.461 [main] LoginPageObjects - Screenshot attached in the report
+[INFO ] 2020-08-10 22:59:27.461 [main] LoginPageObjects - Closing driver instance
+[INFO ] 2020-08-10 23:01:00.479 [main] LoginPageObjects - Screenshot taken and stored on file path/Users/keshavmac/Documents/workspace-eclipse/com.cucumberframework/target/Screenshots/1597080659666.png
+[INFO ] 2020-08-10 23:01:00.947 [main] LoginPageObjects - Screenshot attached in the report
+[INFO ] 2020-08-10 23:01:00.947 [main] LoginPageObjects - Closing driver instance
+[INFO ] 2020-08-20 00:11:39.472 [main] SignupPageobjects - Signup Field Appeared on DOM
+[INFO ] 2020-08-20 00:11:39.928 [main] SignupPageobjects - Screenshot taken and stored on file path/Users/keshavmac/IdeaProjects/com.cucumberframework/target/Screenshots/1597862499723.png
+[INFO ] 2020-08-20 00:11:40.148 [main] SignupPageobjects - Screenshot attached in the report
+[INFO ] 2020-08-20 00:11:40.149 [main] SignupPageobjects - Closing driver instance
+[INFO ] 2020-08-20 00:11:52.725 [main] SignupPageobjects - Signup Field Appeared on DOM
+[INFO ] 2020-08-20 00:11:52.760 [main] SignupPageobjects - Invalid email entered and validated
+[INFO ] 2020-08-20 00:11:53.197 [main] SignupPageobjects - Screenshot taken and stored on file path/Users/keshavmac/IdeaProjects/com.cucumberframework/target/Screenshots/1597862513003.png
+[INFO ] 2020-08-20 00:11:53.380 [main] SignupPageobjects - Screenshot attached in the report
+[INFO ] 2020-08-20 00:11:53.380 [main] SignupPageobjects - Closing driver instance
+[INFO ] 2020-08-20 00:12:06.089 [main] SignupPageobjects - Signup Field Appeared on DOM
+[INFO ] 2020-08-20 00:12:06.150 [main] SignupPageobjects - Valid email entered and validated
+[INFO ] 2020-08-20 00:12:06.616 [main] SignupPageobjects - Screenshot taken and stored on file path/Users/keshavmac/IdeaProjects/com.cucumberframework/target/Screenshots/1597862526394.png
+[INFO ] 2020-08-20 00:12:06.805 [main] SignupPageobjects - Screenshot attached in the report
+[INFO ] 2020-08-20 00:12:06.806 [main] SignupPageobjects - Closing driver instance
+[INFO ] 2020-08-20 00:12:48.025 [main] SignupPageobjects - Signup Field Appeared on DOM
+[INFO ] 2020-08-20 00:12:48.484 [main] SignupPageobjects - Screenshot taken and stored on file path/Users/keshavmac/IdeaProjects/com.cucumberframework/target/Screenshots/1597862568278.png
+[INFO ] 2020-08-20 00:12:48.685 [main] SignupPageobjects - Screenshot attached in the report
+[INFO ] 2020-08-20 00:12:48.686 [main] SignupPageobjects - Closing driver instance

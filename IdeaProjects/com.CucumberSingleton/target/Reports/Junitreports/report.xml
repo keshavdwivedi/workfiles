@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.702">
+<testcase classname="To validate Homepage functionalities for Guru99 telecom website" name="Validate links on homepage of website" time="10.519">
+<system-out><![CDATA[Given User navigates to Guru99 telecom website..............................passed
+Then User verifies the page title "Guru99 Telecom"..........................passed
+When User navigates to homepage of website..................................passed
+And User validates the homepage main heading "Guru99 telecom"...............passed
+Then User verifies the count of homepage links..............................passed
+And User validates all links text on homepage...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

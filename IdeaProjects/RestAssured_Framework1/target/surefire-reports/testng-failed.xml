@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="ReportingSetup.ReportSetup"/>
+  </listeners>
+  <test thread-count="5" name="HP One API Test(failed)" verbose="0">
+    <classes>
+      <class name="GetRequests.GetCustomerRecordPage">
+        <methods>
+          <include name="callGetCustomerRequest"/>
+          <include name="getCheckedSetting_checkResponseTitleText"/>
+          <include name="getCustomerRequest_checkResponseStatusLine"/>
+          <include name="getCalendarEventRequest_checkMainResponseHeading"/>
+          <include name="getCheckedSetting_checkHeaderContents"/>
+          <include name="getCustomerRequest_checkStatusCode"/>
+          <include name="getCheckedSetting_checkContentType"/>
+        </methods>
+      </class> <!-- GetRequests.GetCustomerRecordPage -->
+      <class name="GetRequests.GetAuthorizeClientID">
+        <methods>
+          <include name="getClientIdRequest_checkMainResponseHeading"/>
+          <include name="getClientIdRequest_checkResponseTime"/>
+          <include name="getClientIdRequest_checkContentType"/>
+          <include name="getClientIdRequest_checkResponseStatusLine"/>
+          <include name="getClientIdRequest_checkHeaderContents"/>
+          <include name="getClientIdRequest_checkResponseTitleText"/>
+          <include name="getClientIdRequest"/>
+          <include name="getClientIdRequest_checkResponse"/>
+          <include name="getClientIdRequest_checkStatusCode"/>
+        </methods>
+      </class> <!-- GetRequests.GetAuthorizeClientID -->
+    </classes>
+  </test> <!-- HP One API Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

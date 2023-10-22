@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.framework.runners.ProjectRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.484 s <<< FAILURE! - in com.framework.runners.ProjectRunner
+com.framework.runners.ProjectRunner.runScenario["To test search functionality with blank submit", "Optional[To test the Search feature of application]"](1)  Time elapsed: 15.479 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+

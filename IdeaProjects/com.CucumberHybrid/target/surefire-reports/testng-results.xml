@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="16247" started-at="2020-09-30T18:37:42Z" finished-at="2020-09-30T18:37:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.runners.ProjectRunner@20322d26]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="16247" started-at="2020-09-30T18:37:42Z" finished-at="2020-09-30T18:37:59Z">
+      <class name="com.framework.runners.ProjectRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.framework.runners.ProjectRunner@20322d26]" name="setUpClass" is-config="true" duration-ms="649" started-at="2020-09-30T18:37:42Z" finished-at="2020-09-30T18:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.runners.ProjectRunner@20322d26]" name="runScenario" duration-ms="15464" started-at="2020-09-30T18:37:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-30T18:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To test search functionality with blank submit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To test the Search feature of application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.framework.stepDef.ProductList_stepDef.user_should_be_displayed_validation_message(ProductList_stepDef.java:14)
+at ✽.user should be displayed validation message "Please enter a search keyword"(file:///Users/keshavmac/IdeaProjects/com.CucumberHybrid/src/test/java/com/framework/features/Home.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.framework.runners.ProjectRunner@20322d26]" name="tearDownClass" is-config="true" duration-ms="117" started-at="2020-09-30T18:37:58Z" finished-at="2020-09-30T18:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.runners.ProjectRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

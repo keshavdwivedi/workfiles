@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.framework.runners.ReRunTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.434 s <<< FAILURE! - in com.framework.runners.ReRunTestRunner
+com.framework.runners.ReRunTestRunner.setUpClass  Time elapsed: 0.296 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to parse 'target/Reports/rerun.txt'
+Caused by: java.nio.file.NoSuchFileException: target/Reports/rerun.txt
+

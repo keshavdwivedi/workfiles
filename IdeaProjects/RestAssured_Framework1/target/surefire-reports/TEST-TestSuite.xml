@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="37.33" tests="89" errors="0" skipped="8" failures="7">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/test-classes:/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/classes:/Users/keshavdwivedi/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/keshavdwivedi/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/keshavdwivedi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/keshavdwivedi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/keshavdwivedi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/keshavdwivedi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/keshavdwivedi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/keshavdwivedi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/keshavdwivedi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/keshavdwivedi/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/keshavdwivedi/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/keshavdwivedi/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/keshavdwivedi/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/keshavdwivedi/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/keshavdwivedi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/keshavdwivedi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/keshavdwivedi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/keshavdwivedi/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/keshavdwivedi/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/keshavdwivedi/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/keshavdwivedi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/keshavdwivedi/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/keshavdwivedi/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/keshavdwivedi/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/keshavdwivedi/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/keshavdwivedi/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/keshavdwivedi/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/keshavdwivedi/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/surefire/surefirebooter-20230508151519649_3.jar /Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/surefire 2023-05-08T15-15-19_443-jvmRun1 surefire-20230508151519649_1tmp surefire_0-20230508151519649_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/test-classes:/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/classes:/Users/keshavdwivedi/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/keshavdwivedi/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/keshavdwivedi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/keshavdwivedi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/keshavdwivedi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/keshavdwivedi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/keshavdwivedi/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/keshavdwivedi/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/keshavdwivedi/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/keshavdwivedi/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/keshavdwivedi/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/keshavdwivedi/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/keshavdwivedi/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/keshavdwivedi/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/keshavdwivedi/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/keshavdwivedi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/keshavdwivedi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/keshavdwivedi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/keshavdwivedi/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/keshavdwivedi/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/keshavdwivedi/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/keshavdwivedi/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/keshavdwivedi/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/keshavdwivedi/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/keshavdwivedi/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/keshavdwivedi/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/keshavdwivedi/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/keshavdwivedi/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/keshavdwivedi/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/keshavdwivedi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1/target/surefire/surefirebooter-20230508151519649_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="keshavdwivedi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/keshavdwivedi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/18/_zpsm4810llb615fjc85g0lw0000gq/T/"/>
+    <property name="idea.version" value="2023.1.1"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="/Users/keshavdwivedi/IdeaProjects/RestAssured_Framework1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/keshavdwivedi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="getClientIdRequest" classname="GetRequests.GetAuthorizeClientID" time="8.657">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at ReportingSetup.ReportingUtils.logInfoDetails(ReportingUtils.java:54)
+	at RestAssuredUtils.GetRequestUtils.printResponseLogs(GetRequestUtils.java:27)
+	at RestAssuredUtils.GetRequestUtils.performGetRequestWithParameters(GetRequestUtils.java:37)
+	at GetRequests.GetAuthorizeClientID.getClientIdRequest(GetAuthorizeClientID.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getClientIdRequest_checkResponse" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkResponseTime" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkStatusCode" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkResponseStatusLine" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkHeaderContents" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkContentType" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkResponseTitleText" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getClientIdRequest_checkMainResponseHeading" classname="GetRequests.GetAuthorizeClientID" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getCalendarEventRequest_checkResponse" classname="GetRequests.GetCalendarEventPage" time="0.34">
+    <system-out><![CDATA[response body is:- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DTc7ann4r8ofmzPxFBPuULO_5litsP7Kf9EqfUvSaiS91t2jGiH6g4Dtl-Kp0LNApfY0FGElyKDC1nVJVuRVGEb3NoU7DgAL9uHfi3oeSU7BGirpJQQEOUJzVD3rOstCwOk99DTXja8zB9DklkNS447zD0jF1Z-9sUFYzvc-jUQ_xuYp9_48EsO775Zt7AVy9-kgmIJ48curICr3B-MW0BC-d7Xa2QEb_tgm7quPDV_2fLQl-Go1XDxLo4V0EmVGWIkfcqv8rYpupa4FJSw0DvKMmq8o6z6BSL5ZokoJ4sKGhzFJVLoumuSUxaf7k8GTSKTcOmTG0zFznIvyHHCIiRGgTDrg%26response_mode%3Dform_post%26nonce%3D638191359302188831.ZWQyMjhmMGItNDc4ZS00MTFhLThlYTQtNGRhNmU4OGE3N2VjYWUyNGY4ZGUtYjA2Mi00MGFhLTk5ZmMtNTgyNGJlNjgxY2U0%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEGZ-LQtTCz7PhLl7w23YH1xLCABgrElZVgiMd_I3KDw1r0SWrGFd0IFVAvZIgbEwxQGOY9udjTI51fUj-EL1gm5-cBsUbwYo5uenc-H8SJ3zk3Ipva7BkC0X2dFo9Oqwxs"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DTc7ann4r8ofmzPxFBPuULO_5litsP7Kf9EqfUvSaiS91t2jGiH6g4Dtl-Kp0LNApfY0FGElyKDC1nVJVuRVGEb3NoU7DgAL9uHfi3oeSU7BGirpJQQEOUJzVD3rOstCwOk99DTXja8zB9DklkNS447zD0jF1Z-9sUFYzvc-jUQ_xuYp9_48EsO775Zt7AVy9-kgmIJ48curICr3B-MW0BC-d7Xa2QEb_tgm7quPDV_2fLQl-Go1XDxLo4V0EmVGWIkfcqv8rYpupa4FJSw0DvKMmq8o6z6BSL5ZokoJ4sKGhzFJVLoumuSUxaf7k8GTSKTcOmTG0zFznIvyHHCIiRGgTDrg%26response_mode%3Dform_post%26nonce%3D638191359302188831.ZWQyMjhmMGItNDc4ZS00MTFhLThlYTQtNGRhNmU4OGE3N2VjYWUyNGY4ZGUtYjA2Mi00MGFhLTk5ZmMtNTgyNGJlNjgxY2U0%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253DTc7ann4r8ofmzPxFBPuULO_5litsP7Kf9EqfUvSaiS91t2jGiH6g4Dtl-Kp0LNApfY0FGElyKDC1nVJVuRVGEb3NoU7DgAL9uHfi3oeSU7BGirpJQQEOUJzVD3rOstCwOk99DTXja8zB9DklkNS447zD0jF1Z-9sUFYzvc-jUQ_xuYp9_48EsO775Zt7AVy9-kgmIJ48curICr3B-MW0BC-d7Xa2QEb_tgm7quPDV_2fLQl-Go1XDxLo4V0EmVGWIkfcqv8rYpupa4FJSw0DvKMmq8o6z6BSL5ZokoJ4sKGhzFJVLoumuSUxaf7k8GTSKTcOmTG0zFznIvyHHCIiRGgTDrg%26response_mode%3dform_post%26nonce%3d638191359302188831.ZWQyMjhmMGItNDc4ZS00MTFhLThlYTQtNGRhNmU4OGE3N2VjYWUyNGY4ZGUtYjA2Mi00MGFhLTk5ZmMtNTgyNGJlNjgxY2U0%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEGZ-LQtTCz7PhLl7w23YH1xLCABgrElZVgiMd_I3KDw1r0SWrGFd0IFVAvZIgbEwxQGOY9udjTI51fUj-EL1gm5-cBsUbwYo5uenc-H8SJ3zk3Ipva7BkC0X2dFo9Oqwxs"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getCalendarEventRequest_checkResponseTime" classname="GetRequests.GetCalendarEventPage" time="0.027">
+    <system-out><![CDATA[Response time :- 2682
+]]></system-out>
+  </testcase>
+  <testcase name="getCalendarEventRequest_checkStatusCode" classname="GetRequests.GetCalendarEventPage" time="0.005"/>
+  <testcase name="getCalendarEventRequest_checkResponseStatusLine" classname="GetRequests.GetCalendarEventPage" time="0.005"/>
+  <testcase name="getCalendarEventRequest_checkHeaderContents" classname="GetRequests.GetCalendarEventPage" time="0.004"/>
+  <testcase name="getCalendarEventRequest_checkContentType" classname="GetRequests.GetCalendarEventPage" time="0"/>
+  <testcase name="getCalendarEventRequest_checkResponseTitleText" classname="GetRequests.GetCalendarEventPage" time="0.605"/>
+  <testcase name="getCalendarEventRequest_checkMainResponseHeading" classname="GetRequests.GetCalendarEventPage" time="0.001"/>
+  <testcase name="getCheckedSettingsRequest" classname="GetRequests.GetCheckSettings" time="0.029">
+    <system-out><![CDATA[Response is :- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DGztZWBv3Y5e1hXCifvmWpcR83XcTzz1Oo-wTATGm17NiTt8qqrPnyEDrdwmnOyv9Vvj4k3k1Ct9MBDP0i4zSWv5ItMxLTnjJV2UMeB1hTAgEnBNvq4AFicDsVKTl_cV-aPaP0JXKzvLX4EJuJjeJPoFIs_BSQFG72Tx97oiSFRna7raqEgxYqk3tN39uDphMMRXt8TdZk1zhWr1rTCNZgYpTGfOnE13_gmJS8oeHDgwQWkI9H7SBUafgEI8FdLV5X9HBGfGYmc1AQWbzJs2AY_71UWbiP3ht3DrplmyDRqmRBbJQnV30GvKNNC1ZQi1sZzxVIQ%26response_mode%3Dform_post%26nonce%3D638191359337537259.MmFiYTgyYjYtZTQ5YS00MGFjLTg1MTMtOGRhOGJmZDJiM2ZjOTFhMmNjM2UtYjE3MS00MGRhLTlkZTYtMDIzYTIzMjFkYThj%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEEBXYryb-OmNi5Eij7YXxZv-2zXJrGCz7czdonAdy1TAq2_wgKo9FPfYscwNlEfdCga_bal5Meppcl6YxUwPU5lNkQdiFZXMmlOcMayQHTlTzmRpV7ItK-Shfl9PshF2LU"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DGztZWBv3Y5e1hXCifvmWpcR83XcTzz1Oo-wTATGm17NiTt8qqrPnyEDrdwmnOyv9Vvj4k3k1Ct9MBDP0i4zSWv5ItMxLTnjJV2UMeB1hTAgEnBNvq4AFicDsVKTl_cV-aPaP0JXKzvLX4EJuJjeJPoFIs_BSQFG72Tx97oiSFRna7raqEgxYqk3tN39uDphMMRXt8TdZk1zhWr1rTCNZgYpTGfOnE13_gmJS8oeHDgwQWkI9H7SBUafgEI8FdLV5X9HBGfGYmc1AQWbzJs2AY_71UWbiP3ht3DrplmyDRqmRBbJQnV30GvKNNC1ZQi1sZzxVIQ%26response_mode%3Dform_post%26nonce%3D638191359337537259.MmFiYTgyYjYtZTQ5YS00MGFjLTg1MTMtOGRhOGJmZDJiM2ZjOTFhMmNjM2UtYjE3MS00MGRhLTlkZTYtMDIzYTIzMjFkYThj%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253DGztZWBv3Y5e1hXCifvmWpcR83XcTzz1Oo-wTATGm17NiTt8qqrPnyEDrdwmnOyv9Vvj4k3k1Ct9MBDP0i4zSWv5ItMxLTnjJV2UMeB1hTAgEnBNvq4AFicDsVKTl_cV-aPaP0JXKzvLX4EJuJjeJPoFIs_BSQFG72Tx97oiSFRna7raqEgxYqk3tN39uDphMMRXt8TdZk1zhWr1rTCNZgYpTGfOnE13_gmJS8oeHDgwQWkI9H7SBUafgEI8FdLV5X9HBGfGYmc1AQWbzJs2AY_71UWbiP3ht3DrplmyDRqmRBbJQnV30GvKNNC1ZQi1sZzxVIQ%26response_mode%3dform_post%26nonce%3d638191359337537259.MmFiYTgyYjYtZTQ5YS00MGFjLTg1MTMtOGRhOGJmZDJiM2ZjOTFhMmNjM2UtYjE3MS00MGRhLTlkZTYtMDIzYTIzMjFkYThj%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEEBXYryb-OmNi5Eij7YXxZv-2zXJrGCz7czdonAdy1TAq2_wgKo9FPfYscwNlEfdCga_bal5Meppcl6YxUwPU5lNkQdiFZXMmlOcMayQHTlTzmRpV7ItK-Shfl9PshF2LU"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getCheckedSetting_checkResponseTime" classname="GetRequests.GetCheckSettings" time="0.006">
+    <system-out><![CDATA[Response time :- 2668
+]]></system-out>
+  </testcase>
+  <testcase name="getCheckedSetting_checkStatusCode" classname="GetRequests.GetCheckSettings" time="0"/>
+  <testcase name="getCheckedSetting_checkResponseStatusLine" classname="GetRequests.GetCheckSettings" time="0"/>
+  <testcase name="getCheckedSetting_checkHeaderContents" classname="GetRequests.GetCheckSettings" time="0"/>
+  <testcase name="getCheckedSetting_checkContentType" classname="GetRequests.GetCheckSettings" time="0"/>
+  <testcase name="getCheckedSetting_checkResponseTitleText" classname="GetRequests.GetCheckSettings" time="0.022"/>
+  <testcase name="getCheckedSetting_checkMainResponseHeading" classname="GetRequests.GetCheckSettings" time="0.001"/>
+  <testcase name="getGetCustomerNotesRequest_checkResponse" classname="GetRequests.GetCustomerNotesPage" time="0.014">
+    <system-out><![CDATA[response body is:- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DH1BTsT1MZq_1sFClGm5qkJpHtihZW3GbSZF3BNwa1TBWfYJsYxW12e1Fx9brPjfQN13ewD9gBRTSLdiH5kwIOth04LfP5XgB6AnCpAxapM46mAZfIv8xYYvXGMJl67MvQ7zSR0gvhQRAyD3PlycRps87Bwggryj_MoiVWzUg50wwgt3Uf3GPQvuk2A9pZxCMEP_rySKwhAh1QyW7HFVroShUJddGGoorBl0utwXj1cRH-AHNQqOECR3QZ5K4lgsxItHpTTHDx3DwKJ4Hd3_8TRVSTkKpgS5s47G-GzQcevMwSEql0WLmDAt2hYzJsum4G459LWd4OoFQmnFfGPuWrSFc1y8xckVFEQy6L3oO86fanWVZJ2hhg2u05KutnB148gL1iGm0-_3_EX3xeXDiHvkNJ-HPZZWJGdxNlwR_BHXFZ2BZ%26response_mode%3Dform_post%26nonce%3D638191359364674195.NTFiZDk3NDgtMmU2MS00NTY1LTliNWYtNTk0Mjk1YWJjNDhmNTFlZDBmZTgtMWY0ZC00NTNjLThlMTEtZGFkYjE2ZmUyYzE4%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEEdvzcI1002hF7rHM2oeUizxv5LdD5fll1bemK_5HFP3cHBdemwU-OQCh2zR7cAibwuP3gMJNIWFqh5qdpmHF_ie6yQXaEX9-Nj4q8WqUo-KCipSOzu-tjqX5O07CZ2LJc"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DH1BTsT1MZq_1sFClGm5qkJpHtihZW3GbSZF3BNwa1TBWfYJsYxW12e1Fx9brPjfQN13ewD9gBRTSLdiH5kwIOth04LfP5XgB6AnCpAxapM46mAZfIv8xYYvXGMJl67MvQ7zSR0gvhQRAyD3PlycRps87Bwggryj_MoiVWzUg50wwgt3Uf3GPQvuk2A9pZxCMEP_rySKwhAh1QyW7HFVroShUJddGGoorBl0utwXj1cRH-AHNQqOECR3QZ5K4lgsxItHpTTHDx3DwKJ4Hd3_8TRVSTkKpgS5s47G-GzQcevMwSEql0WLmDAt2hYzJsum4G459LWd4OoFQmnFfGPuWrSFc1y8xckVFEQy6L3oO86fanWVZJ2hhg2u05KutnB148gL1iGm0-_3_EX3xeXDiHvkNJ-HPZZWJGdxNlwR_BHXFZ2BZ%26response_mode%3Dform_post%26nonce%3D638191359364674195.NTFiZDk3NDgtMmU2MS00NTY1LTliNWYtNTk0Mjk1YWJjNDhmNTFlZDBmZTgtMWY0ZC00NTNjLThlMTEtZGFkYjE2ZmUyYzE4%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253DH1BTsT1MZq_1sFClGm5qkJpHtihZW3GbSZF3BNwa1TBWfYJsYxW12e1Fx9brPjfQN13ewD9gBRTSLdiH5kwIOth04LfP5XgB6AnCpAxapM46mAZfIv8xYYvXGMJl67MvQ7zSR0gvhQRAyD3PlycRps87Bwggryj_MoiVWzUg50wwgt3Uf3GPQvuk2A9pZxCMEP_rySKwhAh1QyW7HFVroShUJddGGoorBl0utwXj1cRH-AHNQqOECR3QZ5K4lgsxItHpTTHDx3DwKJ4Hd3_8TRVSTkKpgS5s47G-GzQcevMwSEql0WLmDAt2hYzJsum4G459LWd4OoFQmnFfGPuWrSFc1y8xckVFEQy6L3oO86fanWVZJ2hhg2u05KutnB148gL1iGm0-_3_EX3xeXDiHvkNJ-HPZZWJGdxNlwR_BHXFZ2BZ%26response_mode%3dform_post%26nonce%3d638191359364674195.NTFiZDk3NDgtMmU2MS00NTY1LTliNWYtNTk0Mjk1YWJjNDhmNTFlZDBmZTgtMWY0ZC00NTNjLThlMTEtZGFkYjE2ZmUyYzE4%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEEdvzcI1002hF7rHM2oeUizxv5LdD5fll1bemK_5HFP3cHBdemwU-OQCh2zR7cAibwuP3gMJNIWFqh5qdpmHF_ie6yQXaEX9-Nj4q8WqUo-KCipSOzu-tjqX5O07CZ2LJc"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getGetCustomerNotesRequest_checkResponseTime" classname="GetRequests.GetCustomerNotesPage" time="0.001">
+    <system-out><![CDATA[Response time :- 2453
+]]></system-out>
+  </testcase>
+  <testcase name="getGetCustomerNotesRequest_checkStatusCode" classname="GetRequests.GetCustomerNotesPage" time="0"/>
+  <testcase name="getGetCustomerNotesRequest_checkResponseStatusLine" classname="GetRequests.GetCustomerNotesPage" time="0.001"/>
+  <testcase name="getGetCustomerNotesRequest_checkHeaderContents" classname="GetRequests.GetCustomerNotesPage" time="0.001"/>
+  <testcase name="getGetCustomerNotesRequest_checkContentType" classname="GetRequests.GetCustomerNotesPage" time="0.001"/>
+  <testcase name="getGetCustomerNotesRequest_checkResponseTitleText" classname="GetRequests.GetCustomerNotesPage" time="0.015"/>
+  <testcase name="getGetCustomerNotesRequest_checkMainResponseHeading" classname="GetRequests.GetCustomerNotesPage" time="0"/>
+  <testcase name="getCustomerParamsRequest" classname="GetRequests.GetCustomerRecordPage" time="0.01">
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Date: Mon, 08 May 2023 09:45:38 GMT
+Content-Type: text/html
+Content-Length: 103
+Connection: keep-alive
+
+<html>
+  <body>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</body>
+</html>
+io.restassured.internal.ValidatableResponseImpl@4f5c30b1
+]]></system-out>
+  </testcase>
+  <testcase name="getCustomerRequest_checkResponseTime" classname="GetRequests.GetCustomerRecordPage" time="0.001">
+    <system-out><![CDATA[Response time :- 986
+]]></system-out>
+  </testcase>
+  <testcase name="getCustomerRequest_checkStatusCode" classname="GetRequests.GetCustomerRecordPage" time="0.012">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at GetRequests.GetCustomerRecordPage.getCustomerRequest_checkStatusCode(GetCustomerRecordPage.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getCustomerRequest_checkResponseStatusLine" classname="GetRequests.GetCustomerRecordPage" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at GetRequests.GetCustomerRecordPage.getCustomerRequest_checkResponseStatusLine(GetCustomerRecordPage.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getCheckedSetting_checkHeaderContents" classname="GetRequests.GetCustomerRecordPage" time="0.001">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkHeaderContents(GetCustomerRecordPage.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getCheckedSetting_checkContentType" classname="GetRequests.GetCustomerRecordPage" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkContentType(GetCustomerRecordPage.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getCheckedSetting_checkResponseTitleText" classname="GetRequests.GetCustomerRecordPage" time="0.025">
+    <failure message="expected [Authentication Account Login] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Authentication Account Login] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at GetRequests.GetCustomerRecordPage.getCheckedSetting_checkResponseTitleText(GetCustomerRecordPage.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getCalendarEventRequest_checkMainResponseHeading" classname="GetRequests.GetCustomerRecordPage" time="0.002">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at GetRequests.GetCustomerRecordPage.getCalendarEventRequest_checkMainResponseHeading(GetCustomerRecordPage.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="getDistributorPageRequest_checkResponse" classname="GetRequests.GetDistributorStatusPage" time="0.009">
+    <system-out><![CDATA[response body is:- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253D0CgpkM66YeMfBfrGbx5aqqMdHsDfEyz6LV1fA7v6w_RKIM9MIV2xB0wlqqDWmlhDgiF6DQUukQvxTPNoMzkRLsPt-PYY4PqHouzz78h_JRqDUGiUKTFDW8AkikyQUfn3rxudYipj2Pc_uTD_dZRaAnULrrrrvfKJGBJRBsL6SfGM3KlzzuWoAKYg5OwGE_6-e9j2poz6_w-k32xlgrdYgDevDtIHPtx0F2MztbVuhlkR4YlhPkBPgXHdeIn6SrDIQVvbuSOKGsku9khLIPo8sSDlgAqpBWdMVpojE3FGN8pIoxSKOjATULTm02YLBAgyr3-KaBlPm1j_ZfmY2GAFKKISC_8gcNr5Ii86hgiPXy1MtsKL8twmTcJ1-NrHRH0K8oY-EOk1egUosC-VK7f31MIemWDMWcMZincK55Wi-o0Ss3sI7Tq9lEXeQZGc89uP5YFu9pAGTcj9htQM21DmZLt_92hWhZgANk-x9TGY6UOm7CcunU_k9JCj3IUZOAI2RjA5ziVo9tzfC_437QHTUwt05sOjGuVAA2zQ3tMYL0d16apsULPZpV45Ug2WfypwpdoErup5Ruzb8GbDwcrh2atbvGc%26response_mode%3Dform_post%26nonce%3D638191359399578869.ZjAxNmE1MzEtZjY3YS00N2NhLTg4MjItZjZiNDM0NTFlNWFmZWM0NDBhZmYtZjVmMi00ZWNmLTk1MGUtNjIxYjliOTNmZjYx%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEHuVDz5KgJifL_BqXqQ8YVhBzPHupn3ui8YSzjVcH9v0lOiVf6IFGzWffng3lJRg1ie6DlzXKKf91xVPaO8TKlx9XOJwSo-Psn8aN-q74hSTgIEx1FIt5ceYZPg4Y_Nm0U"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253D0CgpkM66YeMfBfrGbx5aqqMdHsDfEyz6LV1fA7v6w_RKIM9MIV2xB0wlqqDWmlhDgiF6DQUukQvxTPNoMzkRLsPt-PYY4PqHouzz78h_JRqDUGiUKTFDW8AkikyQUfn3rxudYipj2Pc_uTD_dZRaAnULrrrrvfKJGBJRBsL6SfGM3KlzzuWoAKYg5OwGE_6-e9j2poz6_w-k32xlgrdYgDevDtIHPtx0F2MztbVuhlkR4YlhPkBPgXHdeIn6SrDIQVvbuSOKGsku9khLIPo8sSDlgAqpBWdMVpojE3FGN8pIoxSKOjATULTm02YLBAgyr3-KaBlPm1j_ZfmY2GAFKKISC_8gcNr5Ii86hgiPXy1MtsKL8twmTcJ1-NrHRH0K8oY-EOk1egUosC-VK7f31MIemWDMWcMZincK55Wi-o0Ss3sI7Tq9lEXeQZGc89uP5YFu9pAGTcj9htQM21DmZLt_92hWhZgANk-x9TGY6UOm7CcunU_k9JCj3IUZOAI2RjA5ziVo9tzfC_437QHTUwt05sOjGuVAA2zQ3tMYL0d16apsULPZpV45Ug2WfypwpdoErup5Ruzb8GbDwcrh2atbvGc%26response_mode%3Dform_post%26nonce%3D638191359399578869.ZjAxNmE1MzEtZjY3YS00N2NhLTg4MjItZjZiNDM0NTFlNWFmZWM0NDBhZmYtZjVmMi00ZWNmLTk1MGUtNjIxYjliOTNmZjYx%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253D0CgpkM66YeMfBfrGbx5aqqMdHsDfEyz6LV1fA7v6w_RKIM9MIV2xB0wlqqDWmlhDgiF6DQUukQvxTPNoMzkRLsPt-PYY4PqHouzz78h_JRqDUGiUKTFDW8AkikyQUfn3rxudYipj2Pc_uTD_dZRaAnULrrrrvfKJGBJRBsL6SfGM3KlzzuWoAKYg5OwGE_6-e9j2poz6_w-k32xlgrdYgDevDtIHPtx0F2MztbVuhlkR4YlhPkBPgXHdeIn6SrDIQVvbuSOKGsku9khLIPo8sSDlgAqpBWdMVpojE3FGN8pIoxSKOjATULTm02YLBAgyr3-KaBlPm1j_ZfmY2GAFKKISC_8gcNr5Ii86hgiPXy1MtsKL8twmTcJ1-NrHRH0K8oY-EOk1egUosC-VK7f31MIemWDMWcMZincK55Wi-o0Ss3sI7Tq9lEXeQZGc89uP5YFu9pAGTcj9htQM21DmZLt_92hWhZgANk-x9TGY6UOm7CcunU_k9JCj3IUZOAI2RjA5ziVo9tzfC_437QHTUwt05sOjGuVAA2zQ3tMYL0d16apsULPZpV45Ug2WfypwpdoErup5Ruzb8GbDwcrh2atbvGc%26response_mode%3dform_post%26nonce%3d638191359399578869.ZjAxNmE1MzEtZjY3YS00N2NhLTg4MjItZjZiNDM0NTFlNWFmZWM0NDBhZmYtZjVmMi00ZWNmLTk1MGUtNjIxYjliOTNmZjYx%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEHuVDz5KgJifL_BqXqQ8YVhBzPHupn3ui8YSzjVcH9v0lOiVf6IFGzWffng3lJRg1ie6DlzXKKf91xVPaO8TKlx9XOJwSo-Psn8aN-q74hSTgIEx1FIt5ceYZPg4Y_Nm0U"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getDistributorPageRequest_checkResponseTime" classname="GetRequests.GetDistributorStatusPage" time="0.002">
+    <system-out><![CDATA[Response time :- 2534
+]]></system-out>
+  </testcase>
+  <testcase name="getDistributorPageRequest_checkStatusCode" classname="GetRequests.GetDistributorStatusPage" time="0.001"/>
+  <testcase name="getDistributorPageRequest_checkResponseStatusLine" classname="GetRequests.GetDistributorStatusPage" time="0.001"/>
+  <testcase name="getDistributorPageRequest_checkHeaderContents" classname="GetRequests.GetDistributorStatusPage" time="0"/>
+  <testcase name="getDistributorPageRequest_checkContentType" classname="GetRequests.GetDistributorStatusPage" time="0"/>
+  <testcase name="getDistributorPageRequest_checkResponseTitleText" classname="GetRequests.GetDistributorStatusPage" time="0.014"/>
+  <testcase name="getDistributorPageRequest_checkMainResponseHeading" classname="GetRequests.GetDistributorStatusPage" time="0.001"/>
+  <testcase name="getDistributorPageRequest_checkResponse" classname="GetRequests.GetLogoutPage" time="0.01">
+    <system-out><![CDATA[response body is:- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Logout</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-bottom">Logged Out</h2>
+                  <span>You are now logged out</span>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div>
+
+        Click                     <a shape="rect" class="PostLogoutRedirectUri" href="https://uatidentity.landscapecrm.com/Authentication/Account/Login">here</a>
+ to return to the application.
+                      </div>
+                  <div style="display: none;">
+                    <iframe frameborder="1" scrolling="auto" class="signout" id="iframeSignOut" name="iframeSignOut" width="0" height="0" src="https://uatidentity.landscapecrm.com/connect/endsession/callback?endSessionId=CfDJ8HlrO4VBw5ZGh72ZUnhKAEGkgtGtH8D5aqsi3Q729R26qTG64vVDIn60EvrjfaiKKhnChn6tQtRHIURneiQXHzwOKmSHqk-8ncuOAOLJE5BR5RJOPV7cTl5pALfxyAunspUQyzru7YCBkXRJuCJXTJ9RWxYWZW2f6iGI5w-kqE5_LdheRGV1UYOCVklViY7ID-nCHjC8FdT2lEJyk3LZaZWtzwEdzrQFj2G6H5oEq5u6B--CpBVVnjEDboWVBTaVGIvEMcMUDS4cMfUU6__EsplKqVNuq8x2Ujp2z5QGa0XVxD2gHVVwcL4Md6nU10Npohkl_qX7snXuS8XkeqnNm8mXS1JJPwsyInzJRGoQKV75"/>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script src="/js/signout-redirect.js"/>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getDistributorPageRequest_checkResponseTime" classname="GetRequests.GetLogoutPage" time="0.001">
+    <system-out><![CDATA[Response time :- 1193
+]]></system-out>
+  </testcase>
+  <testcase name="getDistributorPageRequest_checkStatusCode" classname="GetRequests.GetLogoutPage" time="0"/>
+  <testcase name="getDistributorPageRequest_checkResponseStatusLine" classname="GetRequests.GetLogoutPage" time="0.001"/>
+  <testcase name="getDistributorPageRequest_checkHeaderContents" classname="GetRequests.GetLogoutPage" time="0"/>
+  <testcase name="getDistributorPageRequest_checkContentType" classname="GetRequests.GetLogoutPage" time="0.001"/>
+  <testcase name="getDistributorPageRequest_checkResponseTitleText" classname="GetRequests.GetLogoutPage" time="0.015"/>
+  <testcase name="getDistributorPageRequest_checkMainResponseHeading" classname="GetRequests.GetLogoutPage" time="0.001"/>
+  <testcase name="getCustomerParamsRequest" classname="GetRequests.GetMySalesPolicyDataPage" time="0.013">
+    <system-out><![CDATA[Response is :- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DnZo-_ftHRTvmn8nEyNHkjfzTU8pV8wIXiJfksaSHE3-fvUb_4SvIAFWtjSE3VnYQwo4TpWaOuDoCkZyP4DdXi7Q7mei7UhJRUDmmTAG2CoLNDRKKDzXGR77U5AI-DzGVD1N5Wc0IRvGkaFaDmtyGUOo99erTs_Hxppofo0WwV1Rasl9rw1zNVv8YbJdd1ibpyhxYajhJ-xvx-iQ48V17zwAxMfbKpZ7N_JXaI5qOsMpgbDvEWW6r0mGPztcvnS1QqdoJMsKrbx5BbmsjhP5wKC4U8v3blaEZjNoCWx1WvcxR6lmgZnpu5Mw2jpIH9n0YG7kovGxnLfSqXZ-NqvVCiKNoXuWRlRAhNY8LSlUGgkrf_Yppv1sP8Z0h_niC-1XRkohm05ioDvWz5WGcOIaLMCbgQYw%26response_mode%3Dform_post%26nonce%3D638191359437642752.NWVlZmU1NTgtYWUzMC00OGU1LTgyNDgtYjE4M2MyY2NiYzk4YzVkMTBmMGEtZGRjZS00MjA0LTg4ZjMtZGUxNWE3NDM1ZGFj%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEGSJaVirIc2iezcgPmjHUOzSYbUViL90Nx3hDZNKxf8oMn49TkZVaYwBkH1VWUE1M-evtVeJ96zNX_drhO9q6SibkDV2rNQE6u-HOCLZNVmhO9MDYXoJT7uwV9CP-RwQyA"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DnZo-_ftHRTvmn8nEyNHkjfzTU8pV8wIXiJfksaSHE3-fvUb_4SvIAFWtjSE3VnYQwo4TpWaOuDoCkZyP4DdXi7Q7mei7UhJRUDmmTAG2CoLNDRKKDzXGR77U5AI-DzGVD1N5Wc0IRvGkaFaDmtyGUOo99erTs_Hxppofo0WwV1Rasl9rw1zNVv8YbJdd1ibpyhxYajhJ-xvx-iQ48V17zwAxMfbKpZ7N_JXaI5qOsMpgbDvEWW6r0mGPztcvnS1QqdoJMsKrbx5BbmsjhP5wKC4U8v3blaEZjNoCWx1WvcxR6lmgZnpu5Mw2jpIH9n0YG7kovGxnLfSqXZ-NqvVCiKNoXuWRlRAhNY8LSlUGgkrf_Yppv1sP8Z0h_niC-1XRkohm05ioDvWz5WGcOIaLMCbgQYw%26response_mode%3Dform_post%26nonce%3D638191359437642752.NWVlZmU1NTgtYWUzMC00OGU1LTgyNDgtYjE4M2MyY2NiYzk4YzVkMTBmMGEtZGRjZS00MjA0LTg4ZjMtZGUxNWE3NDM1ZGFj%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253DnZo-_ftHRTvmn8nEyNHkjfzTU8pV8wIXiJfksaSHE3-fvUb_4SvIAFWtjSE3VnYQwo4TpWaOuDoCkZyP4DdXi7Q7mei7UhJRUDmmTAG2CoLNDRKKDzXGR77U5AI-DzGVD1N5Wc0IRvGkaFaDmtyGUOo99erTs_Hxppofo0WwV1Rasl9rw1zNVv8YbJdd1ibpyhxYajhJ-xvx-iQ48V17zwAxMfbKpZ7N_JXaI5qOsMpgbDvEWW6r0mGPztcvnS1QqdoJMsKrbx5BbmsjhP5wKC4U8v3blaEZjNoCWx1WvcxR6lmgZnpu5Mw2jpIH9n0YG7kovGxnLfSqXZ-NqvVCiKNoXuWRlRAhNY8LSlUGgkrf_Yppv1sP8Z0h_niC-1XRkohm05ioDvWz5WGcOIaLMCbgQYw%26response_mode%3dform_post%26nonce%3d638191359437642752.NWVlZmU1NTgtYWUzMC00OGU1LTgyNDgtYjE4M2MyY2NiYzk4YzVkMTBmMGEtZGRjZS00MjA0LTg4ZjMtZGUxNWE3NDM1ZGFj%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEGSJaVirIc2iezcgPmjHUOzSYbUViL90Nx3hDZNKxf8oMn49TkZVaYwBkH1VWUE1M-evtVeJ96zNX_drhO9q6SibkDV2rNQE6u-HOCLZNVmhO9MDYXoJT7uwV9CP-RwQyA"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getCustomerRequest_checkResponseTime" classname="GetRequests.GetMySalesPolicyDataPage" time="0.004">
+    <system-out><![CDATA[Response time :- 2397
+]]></system-out>
+  </testcase>
+  <testcase name="getCustomerRequest_checkStatusCode" classname="GetRequests.GetMySalesPolicyDataPage" time="0"/>
+  <testcase name="getCustomerRequest_checkResponseStatusLine" classname="GetRequests.GetMySalesPolicyDataPage" time="0"/>
+  <testcase name="getCheckedSetting_checkHeaderContents" classname="GetRequests.GetMySalesPolicyDataPage" time="0"/>
+  <testcase name="getCheckedSetting_checkContentType" classname="GetRequests.GetMySalesPolicyDataPage" time="0"/>
+  <testcase name="getCheckedSetting_checkResponseTitleText" classname="GetRequests.GetMySalesPolicyDataPage" time="0.022"/>
+  <testcase name="getCalendarEventRequest_checkMainResponseHeading" classname="GetRequests.GetMySalesPolicyDataPage" time="0.001"/>
+  <testcase name="getCustomerParamsRequest" classname="GetRequests.GetPortalPage" time="0.014">
+    <system-out><![CDATA[Response is :- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253D25w7tScBnyEtyx8GpPSpkqe8sthJSUiIOPPJ5WHQDetSfrlSekl1P1jqcPceHHS1G974zE-Za2D6ff4O6XxL2_sDjeWgcD8uYzXelHP-9IDQr0P2gy810kY2KriEaLtqk4viUkGT-d878U7En_knZdiOJTBJ3ZSaUFTmlrbQ0pgMihmQEryYKNjMda9lRIWCjXVxdpJRcXbjccre7QkpyvK6H2Ukg-Lm1OsWvwTA1JgFwBejTU_2cdmQ6pbb2_P8ie4aPXaytWNWYq-Ru32Tkwqx8f2ocRBXMVMOOBl2rAFNDT27%26response_mode%3Dform_post%26nonce%3D638191359473066156.MGEzMWYzNTUtMTgwMy00ZmY5LTkyMjAtNzg0NGY1MzM0YWIxZTVkMGY0MjgtMjA0Mi00MmVhLThiM2QtMTc0MWE5NGU4YmYy%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEHGx65UFeV3If3Bg8zmnOmylSbzYDhHyqvnoslH2f84083OAoRBON80WluB1IQQc2zkIxu-dUb0MMrFaiyrG5NO9OK8jbFNWLKhEG_jstVLW0Cf-_QPGlgpMUEv5eQuI_w"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253D25w7tScBnyEtyx8GpPSpkqe8sthJSUiIOPPJ5WHQDetSfrlSekl1P1jqcPceHHS1G974zE-Za2D6ff4O6XxL2_sDjeWgcD8uYzXelHP-9IDQr0P2gy810kY2KriEaLtqk4viUkGT-d878U7En_knZdiOJTBJ3ZSaUFTmlrbQ0pgMihmQEryYKNjMda9lRIWCjXVxdpJRcXbjccre7QkpyvK6H2Ukg-Lm1OsWvwTA1JgFwBejTU_2cdmQ6pbb2_P8ie4aPXaytWNWYq-Ru32Tkwqx8f2ocRBXMVMOOBl2rAFNDT27%26response_mode%3Dform_post%26nonce%3D638191359473066156.MGEzMWYzNTUtMTgwMy00ZmY5LTkyMjAtNzg0NGY1MzM0YWIxZTVkMGY0MjgtMjA0Mi00MmVhLThiM2QtMTc0MWE5NGU4YmYy%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253D25w7tScBnyEtyx8GpPSpkqe8sthJSUiIOPPJ5WHQDetSfrlSekl1P1jqcPceHHS1G974zE-Za2D6ff4O6XxL2_sDjeWgcD8uYzXelHP-9IDQr0P2gy810kY2KriEaLtqk4viUkGT-d878U7En_knZdiOJTBJ3ZSaUFTmlrbQ0pgMihmQEryYKNjMda9lRIWCjXVxdpJRcXbjccre7QkpyvK6H2Ukg-Lm1OsWvwTA1JgFwBejTU_2cdmQ6pbb2_P8ie4aPXaytWNWYq-Ru32Tkwqx8f2ocRBXMVMOOBl2rAFNDT27%26response_mode%3dform_post%26nonce%3d638191359473066156.MGEzMWYzNTUtMTgwMy00ZmY5LTkyMjAtNzg0NGY1MzM0YWIxZTVkMGY0MjgtMjA0Mi00MmVhLThiM2QtMTc0MWE5NGU4YmYy%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEHGx65UFeV3If3Bg8zmnOmylSbzYDhHyqvnoslH2f84083OAoRBON80WluB1IQQc2zkIxu-dUb0MMrFaiyrG5NO9OK8jbFNWLKhEG_jstVLW0Cf-_QPGlgpMUEv5eQuI_w"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getCustomerRequest_checkResponseTime" classname="GetRequests.GetPortalPage" time="0.004">
+    <system-out><![CDATA[Response time :- 3626
+]]></system-out>
+  </testcase>
+  <testcase name="getCustomerRequest_checkStatusCode" classname="GetRequests.GetPortalPage" time="0"/>
+  <testcase name="getCustomerRequest_checkResponseStatusLine" classname="GetRequests.GetPortalPage" time="0"/>
+  <testcase name="getCheckedSetting_checkHeaderContents" classname="GetRequests.GetPortalPage" time="0"/>
+  <testcase name="getCheckedSetting_checkContentType" classname="GetRequests.GetPortalPage" time="0"/>
+  <testcase name="getCheckedSetting_checkResponseTitleText" classname="GetRequests.GetPortalPage" time="0.025"/>
+  <testcase name="getCalendarEventRequest_checkMainResponseHeading" classname="GetRequests.GetPortalPage" time="0"/>
+  <testcase name="getClientIdRequest_checkResponse" classname="GetRequests.GetStartupPage" time="0.007">
+    <system-out><![CDATA[response body is:- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DFNjLi5-8kCFJ99BPspcqvIbCum4xipqXYBTQw0T5aKBHhS9ID_HPNWLODhc7aC-rgMUc6uV4ZekFwWFb4921Vt-2JlZEiFOZiQtUkwvcUSmAX47VxqLx0Jicr0Ni3MXp9OiaD-N3wp1rzfUCcfMb3nk1FAygQZO96ZYpsc6WIEeNCGfXAnIFG3ucEGaPk3BlOdK-UMh43GUK4ewimXd_elruX5fKXBB1_bwiMfsMjjKfho96ucubl3C7pqRCgSI5t5ewVLo3jT95wpfzWxMKd0-6bg3uNSmpLkbGzFjpyS1lVKFA%26response_mode%3Dform_post%26nonce%3D638191359506454105.NTI4MmMwY2MtYmQ5Ni00ZThjLTk3MTEtMjc3ZGIzMzE4ZTczYmFiM2ExNDYtODk2Mi00M2VjLWFjZTItMGM1MDZmNzViNjE5%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEF121-vfCcScYpn9sydcCZfBc57zFzlVwbi0kyQW_pHGEfzlnsdSReYD02LhrosIKV2AbObS3MkUcqjCv1rrZ1yEX6RIQL3X9weXXLLqRGwIzVcvHmSGfzAqNR0tvuamBQ"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253DFNjLi5-8kCFJ99BPspcqvIbCum4xipqXYBTQw0T5aKBHhS9ID_HPNWLODhc7aC-rgMUc6uV4ZekFwWFb4921Vt-2JlZEiFOZiQtUkwvcUSmAX47VxqLx0Jicr0Ni3MXp9OiaD-N3wp1rzfUCcfMb3nk1FAygQZO96ZYpsc6WIEeNCGfXAnIFG3ucEGaPk3BlOdK-UMh43GUK4ewimXd_elruX5fKXBB1_bwiMfsMjjKfho96ucubl3C7pqRCgSI5t5ewVLo3jT95wpfzWxMKd0-6bg3uNSmpLkbGzFjpyS1lVKFA%26response_mode%3Dform_post%26nonce%3D638191359506454105.NTI4MmMwY2MtYmQ5Ni00ZThjLTk3MTEtMjc3ZGIzMzE4ZTczYmFiM2ExNDYtODk2Mi00M2VjLWFjZTItMGM1MDZmNzViNjE5%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253DFNjLi5-8kCFJ99BPspcqvIbCum4xipqXYBTQw0T5aKBHhS9ID_HPNWLODhc7aC-rgMUc6uV4ZekFwWFb4921Vt-2JlZEiFOZiQtUkwvcUSmAX47VxqLx0Jicr0Ni3MXp9OiaD-N3wp1rzfUCcfMb3nk1FAygQZO96ZYpsc6WIEeNCGfXAnIFG3ucEGaPk3BlOdK-UMh43GUK4ewimXd_elruX5fKXBB1_bwiMfsMjjKfho96ucubl3C7pqRCgSI5t5ewVLo3jT95wpfzWxMKd0-6bg3uNSmpLkbGzFjpyS1lVKFA%26response_mode%3dform_post%26nonce%3d638191359506454105.NTI4MmMwY2MtYmQ5Ni00ZThjLTk3MTEtMjc3ZGIzMzE4ZTczYmFiM2ExNDYtODk2Mi00M2VjLWFjZTItMGM1MDZmNzViNjE5%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEF121-vfCcScYpn9sydcCZfBc57zFzlVwbi0kyQW_pHGEfzlnsdSReYD02LhrosIKV2AbObS3MkUcqjCv1rrZ1yEX6RIQL3X9weXXLLqRGwIzVcvHmSGfzAqNR0tvuamBQ"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getClientIdRequest_checkResponseTime" classname="GetRequests.GetStartupPage" time="0.003">
+    <system-out><![CDATA[Response time :- 4774
+]]></system-out>
+  </testcase>
+  <testcase name="getClientIdRequest_checkStatusCode" classname="GetRequests.GetStartupPage" time="0"/>
+  <testcase name="getClientIdRequest_checkResponseStatusLine" classname="GetRequests.GetStartupPage" time="0"/>
+  <testcase name="getClientIdRequest_checkHeaderContents" classname="GetRequests.GetStartupPage" time="0.001"/>
+  <testcase name="getClientIdRequest_checkContentType" classname="GetRequests.GetStartupPage" time="0.001"/>
+  <testcase name="getClientIdRequest_checkResponseTitleText" classname="GetRequests.GetStartupPage" time="0.013"/>
+  <testcase name="getClientIdRequest_checkMainResponseHeading" classname="GetRequests.GetStartupPage" time="0"/>
+  <testcase name="getCalendarEventNotesRequest_checkResponse" classname="GetRequests.getCalendarEventsNotesPage" time="0.007">
+    <system-out><![CDATA[response body is:- <html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="description" content="Landscape CRM User Portal"/>
+    <title>Authentication Account Login</title>
+    <link rel="icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://uatcdn.landscapecrm.com/favicon.ico"/>
+    <script type="text/javascript">
+        !function (T, l, y) { var S = T.location, k = "script", D = "connectionString", C = "ingestionendpoint", I = "disableExceptionTracking", E = "ai.device.", b = "toLowerCase", w = "crossOrigin", N = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) &amp;&amp; (T[e] = t); var n = T[t] || function (d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "5", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[b](), n[E + "type"] = a, n["ai.operation.name"] = S &amp;&amp; S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function () { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length &amp;&amp; (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, u, p, l; g = !0, m.queue = [], f || (f = !0, t = h, s = function () { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a &lt; n.length; a++) { var i = n[a].split("="); 2 === i.length &amp;&amp; (e[i[0][b]()] = i[1]) } if (!e[C]) { var r = e.endpointsuffix, o = r ? e.location : null; e[C] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[D] || d[D] || "", u = s[C], p = u ? u + "/v2/track" : d.endpointUrl, (l = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = p, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S &amp;&amp; S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), l.push(function (e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, p)), function (e, t) { if (JSON) { var n = T.fetch; if (n &amp;&amp; !y.useXhr) n(t, { method: N, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(N, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(l, p)) } function i(e, t) { f || setTimeout(function () { !t &amp;&amp; m.core || a() }, 500) } var e = function () { var n = l.createElement(k); n.src = h; var e = y[w]; return !e &amp;&amp; "" !== e || "undefined" == n[w] || (n[w] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function (e, t) { "loaded" !== n.readyState &amp;&amp; "complete" !== n.readyState || i(0, t) }, n }(); y.ld &lt; 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function () { l.getElementsByTagName(k)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function (t) { m[t] = function () { var e = arguments; g || m.queue.push(function () { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[I] &amp;&amp; !0 !== s[I]) { var c = "onerror"; t(["_" + c]); var u = T[c]; T[c] = function (e, t, n, a, i) { var r = u &amp;&amp; u(e, t, n, a, i); return !0 !== r &amp;&amp; m["_" + c]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); function a() { y.onInit &amp;&amp; y.onInit(n) } (T[t] = n).queue &amp;&amp; 0 === n.queue.length ? (n.queue.push(a), n.trackPageView({})) : a() }(window, document, {
+            src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+            // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+            // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+            // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+            crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+            // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+            cfg: { // Application Insights Configuration
+                connectionString: "InstrumentationKey=8fa6911a-6f84-46d3-a914-f54c08de7a25;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/"
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledLibGlobal.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/css/themes/hpo.theme.0.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <link rel="stylesheet" href="https://uatcdn.landscapecrm.com/Css/bundledCommon.min.Css?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledLibGlobal.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script src="https://uatcdn.landscapecrm.com/Js/bundledCommon.min.Js?v=1f61dddcff234c37bb9c2b71047676f9"/>
+    <script type="text/javascript">
+        //nothing else should go here, but this
+        SetTopWindow( true );
+
+        $( document ).ready( function () {
+            var mH = $( "#master-header" );
+            var mC = $( "#master-content" );
+            var mF = $( "#master-footer" );
+            mC.css( "top", mH.outerHeight() + "px" ).css( "bottom", mF.outerHeight() + "px" );
+            mF.show();
+            //console.log( "top", mH.outerHeight() + "px", "bottom", mF.outerHeight() + "px" )
+        } );
+    </script>
+  </head>
+  <body>
+    <div id="master-wrapper">
+      <div id="master-header"/>
+      <div id="master-content">
+        <div id="master-content-container">
+          <div class="container-fluid">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="w-100 padding-lg border-bottom greyBackground">
+                  <div class="site-logo" style="background-image: url(https://uatcdn.landscapecrm.com/Content/img/logoWhite2.png);"/>
+                </div>
+                <div class="modal-body">
+                  <h2 class="padding-lg-vertical">Login with</h2>
+                  <div class="div-grid">
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/External/Challenge?Scheme=OpenIdConnect&amp;ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253D7IC1i_3fjKfx3s219tpx-buAShhJlXvDiSZ7QI8S96sn9wg4_UJcclbopNx_WhecwVqfKT6VAAOq-KEO7WkKWMbBN-4KnsixSIhg_VEA1T1dtc5Ze5NHsYqkxOXgPmod-V7FjlBn5WcjDUfiZ9yMuODrXqYpsFIaFki_MA_RbPo6AuwEohEAov-ETIiHXbC6TeYagw919rLvnP867fzlq8UGdsx9Nx9YxEf4WMBFlimDBlSlgDRXoXa4vZ8er4SgEw9r4dMc9gEYa_w0F6_EVEJM_w0qmn1lgnidHDqTzU5DWBpgHPrT44GCSKUqRn0ynaULnSwmopaSG2G5AvhIdgoETy4Mxd0RkddjSRu1jIT_Rpd5_673xHQsH9ekeB907k3NOIMmtZF5NZkgZXfIJFZMocuv832O3biHST3cnf56D-pc7_gdC-R-I3MqV7xIbYwWFw%26response_mode%3Dform_post%26nonce%3D638191359549107202.YzQ4N2FhNTUtYzAwNi00NGViLWE4YTEtNjE5OWMyYmJiZDU1YjA5ZDQ1NTctNDQzZC00ZmQ4LTgxODYtZmZmZjQ5ZTg2ODgx%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                      <button type="submit" class="div-grid-item d-flex bd-highlight" name="button" value="externalProvider" title="Access all Landscape accounts associated with your Windows account">
+                        <div class="p-2 provider-box-OpenIdConnect align-self-center">
+                          <h2 class="font-weight-bold">HPO</h2>
+                        </div>
+                        <div class="p-2 flex-grow-1 provider-logo-box-OpenIdConnect">
+                          <h3 class="mb-1 text-left">Single Sign On</h3>
+                          <h5 class="mb-1 text-left">HPOne accounts</h5>
+                        </div>
+                      </button>
+                      <div class="div-grid-item-spacer"/>
+                      <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEHq9ES_dcBz8Aa4tpfZAtA-IrvaYCte6OSvSyJMMgzI_SvQuFfql12vaP1wzlMMN24mOA_CATsxM6O5SLSg43E4VVCKXILs8SK1VJpiUwJvyzGXL9WTOBrRefd4eLIUE8k"/>
+                    </form>
+                    <style>
+                .provider-box-OpenIdConnect {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    line-height: 70px;
+                    padding: 19px 10px 10px 7px !important;
+                    background-color: #425363;
+                    color: #ffffff;
+                    vertical-align: middle;
+                }
+                .div-grid .div-grid-item:hover .provider-box-OpenIdConnect {
+                    background-color: #ffffff;
+                    color: #425363;
+                }
+
+                .div-grid .div-grid-item:hover .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(220,220,220,0.90) 0%,rgba(220,220,220,0.90) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                }
+                .provider-logo-box-OpenIdConnect {
+                    background-image: linear-gradient(to bottom,rgba(245,245,245,0.5) 0%,rgba(245,245,245,0.5) 100%),url('https://uatcdn.landscapecrm.com/Content/img/microsoftLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: right bottom;
+                    min-height: 60px;
+                    min-width: 200px;
+                    background-color: transparent;
+                }
+            </style>
+                  </div>
+                  <br clear="none"/>
+                  <br clear="none"/>
+                  <div class="div-separator-horizontal">OR</div>
+                  <br clear="none"/>
+                  <h2 class="padding-lg-vertical">LandscapeCRM Account</h2>
+                  <form enctype="application/x-www-form-urlencoded" method="post" action="/Authentication/Account/Login?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3Dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3Did_token%26scope%3Dopenid%2520profile%26state%3DOpenIdConnect.AuthenticationProperties%253D7IC1i_3fjKfx3s219tpx-buAShhJlXvDiSZ7QI8S96sn9wg4_UJcclbopNx_WhecwVqfKT6VAAOq-KEO7WkKWMbBN-4KnsixSIhg_VEA1T1dtc5Ze5NHsYqkxOXgPmod-V7FjlBn5WcjDUfiZ9yMuODrXqYpsFIaFki_MA_RbPo6AuwEohEAov-ETIiHXbC6TeYagw919rLvnP867fzlq8UGdsx9Nx9YxEf4WMBFlimDBlSlgDRXoXa4vZ8er4SgEw9r4dMc9gEYa_w0F6_EVEJM_w0qmn1lgnidHDqTzU5DWBpgHPrT44GCSKUqRn0ynaULnSwmopaSG2G5AvhIdgoETy4Mxd0RkddjSRu1jIT_Rpd5_673xHQsH9ekeB907k3NOIMmtZF5NZkgZXfIJFZMocuv832O3biHST3cnf56D-pc7_gdC-R-I3MqV7xIbYwWFw%26response_mode%3Dform_post%26nonce%3D638191359549107202.YzQ4N2FhNTUtYzAwNi00NGViLWE4YTEtNjE5OWMyYmJiZDU1YjA5ZDQ1NTctNDQzZC00ZmQ4LTgxODYtZmZmZjQ5ZTg2ODgx%26x-client-SKU%3DID_NET472%26x-client-ver%3D6.25.1.0">
+                    <div class="form-group">
+                      <label for="Username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="Username" placeholder="Username" required="required" data-val="true" data-val-required="The Username field is required." name="Username" value=""/>
+                    </div>
+                    <div class="form-group">
+                      <label for="Password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="Password" placeholder="**********" autocomplete="off" required="required" data-val="true" data-val-required="The Password field is required." name="Password"/>
+                    </div>
+                    <div class="form-group">
+                      <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                        <ul>
+                          <li style="display:none"/>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="row padding-md-top">
+                        <div class="col">
+                          <button type="submit" class="btn btn-success btn-block" name="button" value="login">Login</button>
+                        </div>
+                        <div class="col text-right text-nowrap">
+                          <a shape="rect" href="https://uatportal.landscapecrm.com/Account/Reset%20Password.aspx?ReturnUrl=%2fconnect%2fauthorize%2fcallback%3fclient_id%3d5631FFD7-490A-4BE7-B1E4-54EC0212DC3A%26redirect_uri%3dhttps%253A%252F%252Fuatportal.landscapecrm.com%252FAccount%252FInitialLogIn%252FCheckSettings.aspx%26response_type%3did_token%26scope%3dopenid%2520profile%26state%3dOpenIdConnect.AuthenticationProperties%253D7IC1i_3fjKfx3s219tpx-buAShhJlXvDiSZ7QI8S96sn9wg4_UJcclbopNx_WhecwVqfKT6VAAOq-KEO7WkKWMbBN-4KnsixSIhg_VEA1T1dtc5Ze5NHsYqkxOXgPmod-V7FjlBn5WcjDUfiZ9yMuODrXqYpsFIaFki_MA_RbPo6AuwEohEAov-ETIiHXbC6TeYagw919rLvnP867fzlq8UGdsx9Nx9YxEf4WMBFlimDBlSlgDRXoXa4vZ8er4SgEw9r4dMc9gEYa_w0F6_EVEJM_w0qmn1lgnidHDqTzU5DWBpgHPrT44GCSKUqRn0ynaULnSwmopaSG2G5AvhIdgoETy4Mxd0RkddjSRu1jIT_Rpd5_673xHQsH9ekeB907k3NOIMmtZF5NZkgZXfIJFZMocuv832O3biHST3cnf56D-pc7_gdC-R-I3MqV7xIbYwWFw%26response_mode%3dform_post%26nonce%3d638191359549107202.YzQ4N2FhNTUtYzAwNi00NGViLWE4YTEtNjE5OWMyYmJiZDU1YjA5ZDQ1NTctNDQzZC00ZmQ4LTgxODYtZmZmZjQ5ZTg2ODgx%26x-client-SKU%3dID_NET472%26x-client-ver%3d6.25.1.0">Forgot Password?</a>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="__RequestVerificationToken" value="CfDJ8HlrO4VBw5ZGh72ZUnhKAEHq9ES_dcBz8Aa4tpfZAtA-IrvaYCte6OSvSyJMMgzI_SvQuFfql12vaP1wzlMMN24mOA_CATsxM6O5SLSg43E4VVCKXILs8SK1VJpiUwJvyzGXL9WTOBrRefd4eLIUE8k"/>
+                  </form>
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    © Health Plan One 2023                   <span style="color:blue; font-weight:bold;"> [UAT] - PD0SDWK00041G</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="master-footer"/>
+    </div>
+    <script type="text/javascript">
+        $( document ).ready( function () {
+            console.log( new Date(), "⚡ login page" );
+        } );
+    </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getCalendarEventNotesRequest_checkResponseTime" classname="GetRequests.getCalendarEventsNotesPage" time="0.002">
+    <system-out><![CDATA[Response time :- 2732
+]]></system-out>
+  </testcase>
+  <testcase name="getCalendarEventNotesRequest_checkStatusCode" classname="GetRequests.getCalendarEventsNotesPage" time="0"/>
+  <testcase name="getCalendarEventNotesRequest_checkResponseStatusLine" classname="GetRequests.getCalendarEventsNotesPage" time="0.001"/>
+  <testcase name="getCalendarEventNotesRequest_checkHeaderContents" classname="GetRequests.getCalendarEventsNotesPage" time="0"/>
+  <testcase name="getCalendarEventNotesRequest_checkContentType" classname="GetRequests.getCalendarEventsNotesPage" time="0"/>
+  <testcase name="getCalendarEventNotesRequest_checkResponseTitleText" classname="GetRequests.getCalendarEventsNotesPage" time="0.013"/>
+  <testcase name="getCalendarEventNotesRequest_checkMainResponseHeading" classname="GetRequests.getCalendarEventsNotesPage" time="0"/>
+</testsuite>

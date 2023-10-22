@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>com.CucumberSingleton</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <Cucumber.version>6.4.0</Cucumber.version>
+        <Selenium.version>3.141.59</Selenium.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>6.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>6.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>6.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.14.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>logs</directory>
+                            <includes>
+                                <include>**/*</include>
+                            </includes>
+                            <followSymlinks>false</followSymlinks>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>3.16.0</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>Cucumber Singleton pattern execution report</projectName>
+                            <outputDirectory>${project.build.directory}/Reports/cucumber-reports</outputDirectory>
+                            <cucumberOutput>${project.build.directory}/Reports/JsonReport/report.json</cucumberOutput>
+                            <buildNumber>42</buildNumber>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <executions>
+                    <execution>
+                        <id>testngtest</id>
+                        <phase>test</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- <systemPropertyVariables> <IsGridSetup>${is.grid}</IsGridSetup>
+                        <HubUrl>${hub.url}</HubUrl> <FeatureName>${feature.name}</FeatureName> <TagName>${tag.name}</TagName>
+                        <BrowserType>${browser.type}</BrowserType> </systemPropertyVariables> -->
+                    <forkCount>3</forkCount> <!-- how many parallel vm get created and execute -->
+                    <reuseForks>false</reuseForks><!-- Every it will create a new vm for
+						the execution and will not use any existing -->
+                    <testFailureIgnore>true</testFailureIgnore><!-- The execution will continue
+						even if there is a test failure -->
+                    <includes> <!-- Specify the file name -->
+                        <include>**/*TestRunner.java</include><!-- This will include all the file
+							which has "Runner" as suffix in their name -->
+                    </includes>
+                    <suiteXmlFiles>
+                        <!-- <suiteXmlFile>${testngxml.location}/testng.xml</suiteXmlFile> -->
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
